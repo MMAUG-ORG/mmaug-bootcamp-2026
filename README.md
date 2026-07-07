@@ -2,7 +2,7 @@
 
 Welcome to the **Malta Microsoft AI User Group (MMAUG) 30-Day AI and DevOps Fundamentals Bootcamp**.
 
-This bootcamp is designed for beginners who want the prerequisite skills needed to enter AI, cloud, and DevOps learning paths with confidence. The AI fundamentals content is inspired by Microsoft AI certification-style learning outcomes, including AI-901/AI-103-style foundations, plus practical modern AI concepts learners now meet in real projects: large language models, context windows, tokenization, prompt engineering, context engineering, model parameters, agentic workflows, open model providers, and responsible use.
+This bootcamp is designed for beginners who want the prerequisite skills needed to enter AI, cloud, and DevOps learning paths with confidence. The AI fundamentals content is inspired by Microsoft AI certification-style learning outcomes, including AI-901/AI-103-style foundations, plus practical modern AI concepts learners now meet in real projects: large language models, context windows, tokenization, prompt engineering, context engineering, model parameters, agentic workflows, open-source model providers, and responsible use of AI.
 
 The goal is not to turn participants into experts in 30 days. The goal is to help them build the vocabulary, habits, tooling confidence, and hands-on foundation they need before joining hackathons, internships, cloud projects, AI projects, and more advanced Microsoft learning journeys.
 
