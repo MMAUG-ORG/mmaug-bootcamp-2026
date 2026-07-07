@@ -16,6 +16,7 @@ Use AI tools more effectively for learning, building, review, and safe iteration
 - Context engineering
 - Context window budgeting
 - Temperature and creativity settings
+- Model routers and choosing the right model for a task
 - Verification and evaluation
 - Iteration
 - Verification
@@ -36,6 +37,8 @@ Examples: What does a good answer look like?
 Output: What format should the answer use?
 Verification: What should I check before trusting it?
 ```
+
+Model routers change how you think about prompt engineering. When a router selects the model for you, your prompt needs to describe the task clearly enough for both the router and the model to interpret it correctly. Understanding temperature, token budgets, and output formats becomes even more important because different models behind a router may behave differently with the same prompt.
 
 ## Hands-On Lab
 
