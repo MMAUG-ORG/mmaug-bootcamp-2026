@@ -1,0 +1,27 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs and temporary output
+*.log
+tmp/
+temp/
+
