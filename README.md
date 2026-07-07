@@ -76,4 +76,4 @@ The top 5 eligible participants whose final capstone submissions meet all requir
 
 ## Community Expectations
 
-All participants, mentors, speakers, and volunteers are expected to follow the MMAUG [Community Standard and Governance](https://mmaug-org.github.io/community-articles/governance/) as well as our [Code of Conduct](https://mmaug-org.github.io/community-articles/code-of-conduct/) by approaching co-learners and organizers with respect, patience, and curiosity. This is a beginner-friendly space. Asking basic questions is not only allowed; it is part of the design.
+All participants, mentors, speakers, and volunteers are expected to follow the MMAUG [Community Standard and Governance](https://mmaug-org.github.io/community-articles/governance/) as well as our [Code of Conduct](https://mmaug-org.github.io/community-articles/code-of-conduct/). You are advised to approach other learners, organizers, and speakers with respect, patience, and curiosity. This is a beginner-friendly space. Asking basic questions is not only allowed; it is part of the design.
