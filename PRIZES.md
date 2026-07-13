@@ -1,17 +1,19 @@
-# Prizes and Eligibility
+# Provisional Prizes and Eligibility
 
-MMAUG plans to award **5 Microsoft Certification exam vouchers** to the top 5 eligible participants whose final capstone submissions meet all required criteria.
+MMAUG is working to secure sponsorship or support for Microsoft Certification exam vouchers or other prizes. Final prize availability will be confirmed before the capstone submission deadline.
+
+No prize type, quantity, or recipient count is guaranteed until MMAUG publishes that confirmation. If prizes are secured, the criteria below will be used to determine eligibility and support a transparent capstone review process.
 
 ## Prize
 
-- **Prize type**: Microsoft Certification exam voucher
-- **Number of prizes**: 5
-- **Award recipients**: Top 5 eligible participants based on final capstone review
-- **Limit**: One voucher per winning participant
+- **Potential prize types**: Microsoft Certification exam vouchers or other sponsored prizes
+- **Number of prizes**: To be confirmed
+- **Award recipients**: To be determined from eligible participants based on final capstone review
+- **Availability**: Subject to confirmed sponsorship or support
 
 ## Eligibility Conditions
 
-To be eligible for a voucher, a participant must:
+To be considered for a prize if prizes are confirmed, a participant must:
 
 - Be registered for the MMAUG AI and DevOps Fundamentals Bootcamp.
 - Follow the bootcamp code of conduct.
@@ -23,7 +25,7 @@ To be eligible for a voucher, a participant must:
 - Include evidence of AI, DevOps, DevSecOps, AIOps, and responsible AI work.
 - Be able to explain the submitted project during review or showcase if requested.
 
-## Capstone Criteria Required for Prize Consideration
+## Provisional Capstone Criteria for Prize Consideration
 
 The final submission must include:
 
@@ -75,10 +77,9 @@ A submission may be disqualified from prize consideration if:
 - The submission violates the MMAUG code of conduct.
 - The project does not meet the minimum capstone acceptance criteria.
 
-## Voucher Notes
+## Prize Notes
 
-- Voucher availability, exam eligibility, expiry dates, and redemption rules may be subject to Microsoft voucher terms.
-- Vouchers are not guaranteed for all participants.
-- Vouchers are not transferable unless organizers explicitly allow it.
-- Organizers may adjust timelines or review logistics if required, but prize criteria should remain transparent to participants.
-
+- Prizes are subject to confirmed sponsorship or support and are not guaranteed.
+- If certification vouchers are secured, exam eligibility, expiry dates, redemption rules, and transferability may be subject to the provider's terms.
+- Final prize types, quantities, eligibility conditions, and terms will be announced before the capstone submission deadline.
+- Organizers may adjust timelines or review logistics if required, while keeping the confirmed prize criteria transparent to participants.

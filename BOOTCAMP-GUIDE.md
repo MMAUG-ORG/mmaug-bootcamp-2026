@@ -98,7 +98,7 @@ Minimum capstone requirements:
 - Short reflection on what was learned
 - Responsible AI note explaining limits, risks, or assumptions
 
-Full capstone expectations are available in [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md). Prize eligibility and voucher conditions are available in [PRIZES.md](PRIZES.md).
+Full capstone expectations are available in [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md). Provisional prize eligibility criteria and sponsorship status are available in [PRIZES.md](PRIZES.md).
 
 ## AI Fundamentals Module Catalog
 

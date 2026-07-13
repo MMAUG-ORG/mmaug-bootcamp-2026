@@ -213,13 +213,13 @@ This depends on MMAUG organizer policy. A certificate, badge, or showcase recogn
 
 ### Are there prizes?
 
-Yes. MMAUG plans to award 5 Microsoft Certification exam vouchers to the top 5 eligible participants whose final capstone submissions meet all required criteria.
+MMAUG is working to secure sponsorship or support for Microsoft Certification exam vouchers or other prizes. Final prize availability will be confirmed before the capstone submission deadline.
 
-### How can I qualify for a Microsoft Certification exam voucher?
+### How can I be considered for a prize if prizes are confirmed?
 
-To qualify for prize consideration, participants must submit by the stated deadline, meet the capstone criteria, use the official submission template, include Microsoft Foundry or Azure AI Services in the project or architecture, and provide evidence of AI, DevOps, DevSecOps, AIOps, and responsible AI work.
+The current provisional criteria require participants to submit by the stated deadline, meet the capstone criteria, use the official submission template, include Microsoft Foundry or Azure AI Services in the project or architecture, and provide evidence of AI, DevOps, DevSecOps, AIOps, and responsible AI work. Final eligibility conditions will be confirmed with the prize announcement.
 
-Full prize rules are available in [PRIZES.md](PRIZES.md).
+Provisional prize criteria are available in [PRIZES.md](PRIZES.md).
 
 ### What evidence can participants show after the bootcamp?
 

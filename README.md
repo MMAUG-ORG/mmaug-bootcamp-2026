@@ -62,7 +62,7 @@ The `main` branch contains both tracks together so organizers and learners can s
 
 Participants should read [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md) before choosing a final project.
 
-The top 5 eligible participants whose final capstone submissions meet all required criteria will each receive **one Microsoft Certification exam voucher**. Full prize conditions are documented in [PRIZES.md](PRIZES.md).
+MMAUG is working to secure sponsorship or support for Microsoft Certification exam vouchers or other prizes. Final prize availability will be confirmed before the capstone submission deadline. The provisional prize criteria are documented in [PRIZES.md](PRIZES.md).
 
 ## How to Use This Repository
 

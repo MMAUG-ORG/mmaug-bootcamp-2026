@@ -7,7 +7,7 @@ Finalize the capstone, present it clearly, and choose the next learning path.
 ## Core Topics
 
 - README quality
-- Prize eligibility criteria
+- Provisional prize eligibility criteria
 - Responsible AI notes
 - Demo preparation
 - Reflection
@@ -23,7 +23,7 @@ The final day is about communicating the work. A beginner who can explain what t
 1. Finalize the capstone README.
 2. Add responsible AI and limitations sections.
 3. Confirm the project submission template is complete.
-4. Check the prize eligibility criteria if submitting for voucher consideration.
+4. Check the confirmed prize announcement and eligibility criteria, if prizes are available.
 5. Prepare a 3-minute demo outline.
 6. Write a final reflection.
 7. Submit the project link.
