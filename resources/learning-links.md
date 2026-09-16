@@ -22,6 +22,25 @@ Use this file to collect official resources, community links, recordings, planni
 - Azure OpenAI in Azure AI Foundry Models: https://learn.microsoft.com/azure/ai-foundry/openai/
 - Azure AI Search: https://learn.microsoft.com/azure/search/
 
+## Microsoft Self-Paced Certification Learning Paths
+
+Use these alongside the MMAUG live programme. They are self-paced Microsoft Learn resources, not a substitute for the live labs, assignments, or independent exam preparation.
+
+### AI-900 foundations (legacy exam objectives)
+
+- [Microsoft Azure AI Fundamentals: AI Overview](https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/) — beginner learning path covering AI concepts, machine learning concepts, and Azure AI services.
+- [AI-900 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-900/) — use the published objective domains as a revision checklist.
+
+> **Important:** Microsoft retired Exam AI-900 on 30 June 2026. This content remains useful for foundational study, but participants cannot book AI-900 as a current certification exam. Check the [current Azure AI Fundamentals certification page](https://learn.microsoft.com/credentials/certifications/azure-ai-fundamentals/) for Microsoft's replacement exam and current requirements.
+
+### AI-103: Develop AI apps and agents on Azure
+
+- [AI-103 self-paced course](https://learn.microsoft.com/training/courses/ai-103t00) — the official course syllabus and its Microsoft Learn paths for generative AI apps, AI agents, natural language solutions, and visual-data solutions.
+- [AI-103 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-103) — skills measured and preparation resources.
+- [Azure AI Apps and Agents Developer Associate certification](https://learn.microsoft.com/credentials/certifications/azure-ai-apps-and-agents-developer-associate/) — current certification requirements and exam information.
+
+AI-103 is intermediate. Complete the fundamentals content, become comfortable with Python and APIs, and finish the relevant bootcamp labs before treating it as an exam-preparation track.
+
 ## AI Fundamentals References
 
 | Topic | Resource | Link |

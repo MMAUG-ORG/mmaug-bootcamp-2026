@@ -67,12 +67,14 @@ MMAUG is working to secure sponsorship or support for Microsoft Certification ex
 ## How to Use This Repository
 
 1. Start with [BOOTCAMP-GUIDE.md](BOOTCAMP-GUIDE.md).
-2. Use the daily lesson files in [days/](days/) during delivery.
-3. Review [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md) before starting the capstone.
-4. Read [FAQ.md](FAQ.md) before registration or onboarding.
-5. Use [REPOSITORY-GUIDE.md](REPOSITORY-GUIDE.md) to understand how the bootcamp repo should be organized.
-6. Copy the templates in [templates/](templates/) into your personal bootcamp repository.
-7. Track your learning daily and submit your capstone at the end.
+2. Check the [live programme and speaker lab repositories](PROGRAMME-SCHEDULE.md) for the actual session timetable and hands-on resources.
+3. Use the daily lesson files in [days/](days/) during delivery.
+4. Follow the [Microsoft self-paced certification learning paths](resources/learning-links.md#microsoft-self-paced-certification-learning-paths) alongside the live sessions.
+5. Review [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md) before starting the capstone.
+6. Read [FAQ.md](FAQ.md) before registration or onboarding.
+7. Use [REPOSITORY-GUIDE.md](REPOSITORY-GUIDE.md) to understand how the bootcamp repo should be organized.
+8. Copy the templates in [templates/](templates/) into your personal bootcamp repository.
+9. Track your learning daily and submit your capstone at the end.
 
 ## Community Expectations
 
