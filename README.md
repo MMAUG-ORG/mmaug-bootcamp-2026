@@ -25,14 +25,18 @@ MMAUG-Bootcamp-2026/
 ├── FAQ.md
 ├── PRIZES.md
 ├── REPOSITORY-GUIDE.md
+├── PROGRAMME-SCHEDULE.md
 ├── days/
-│   ├── day-01-welcome-and-learning-mindset.md
-│   ├── day-02-computer-internet-developer-basics.md
-│   └── ...
+│   ├── README.md
+│   ├── day-01.md
+│   └── day-30.md
 ├── resources/
 │   ├── ai-module-catalog.md
 │   ├── learning-links.md
-│   └── prompt-templates.md
+│   ├── prompt-templates.md
+│   └── session-labs.json
+├── scripts/
+│   └── sync-live-programme.mjs
 └── templates/
     ├── daily-reflection.md
     ├── learner-profile.md
@@ -75,6 +79,16 @@ MMAUG is working to secure sponsorship or support for Microsoft Certification ex
 7. Use [REPOSITORY-GUIDE.md](REPOSITORY-GUIDE.md) to understand how the bootcamp repo should be organized.
 8. Copy the templates in [templates/](templates/) into your personal bootcamp repository.
 9. Track your learning daily and submit your capstone at the end.
+
+## Keeping the Live Programme in Sync
+
+The files under [`days/`](days/) are generated from the public MMAUG programme. After an administrator changes the website calendar, run:
+
+```bash
+node scripts/sync-live-programme.mjs
+```
+
+Reviewed speaker lab URLs belong in [`resources/session-labs.json`](resources/session-labs.json). The generator preserves them and publishes them into the daily pages and [programme schedule](PROGRAMME-SCHEDULE.md).
 
 ## Community Expectations
 

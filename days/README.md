@@ -1,37 +1,45 @@
-# Daily Lesson Index
+# Daily Programme Index
 
-Use these files as facilitator-ready daily lesson plans for the MMAUG AI and DevOps Fundamentals Bootcamp.
+This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **17 September 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
 
-| Day | Lesson |
-| --- | --- |
-| 1 | [Welcome, Goals, and Learning Mindset](day-01-welcome-and-learning-mindset.md) |
-| 2 | [Computer, Internet, and Developer Basics](day-02-computer-internet-developer-basics.md) |
-| 3 | [Command Line Fundamentals](day-03-command-line-fundamentals.md) |
-| 4 | [Git and Version Control](day-04-git-and-version-control.md) |
-| 5 | [GitHub Foundations](day-05-github-foundations.md) |
-| 6 | [Markdown and Technical Notes](day-06-markdown-and-technical-notes.md) |
-| 7 | [Week 1 Review and Mini Challenge](day-07-week-1-review-mini-challenge.md) |
-| 8 | [Python Setup and First Script](day-08-python-setup-first-script.md) |
-| 9 | [Python Variables, Types, and Input](day-09-python-variables-types-input.md) |
-| 10 | [Python Conditions and Decisions](day-10-python-conditions-decisions.md) |
-| 11 | [Python Loops and Lists](day-11-python-loops-lists.md) |
-| 12 | [Python Files and Data](day-12-python-files-and-data.md) |
-| 13 | [AI Fundamentals](day-13-ai-fundamentals.md) |
-| 14 | [Responsible AI and Week 2 Review](day-14-responsible-ai-week-2-review.md) |
-| 15 | [Cloud Computing Fundamentals](day-15-cloud-computing-fundamentals.md) |
-| 16 | [Azure Fundamentals for Beginners](day-16-azure-fundamentals-for-beginners.md) |
-| 17 | [DevOps Fundamentals](day-17-devops-fundamentals.md) |
-| 18 | [Testing and Quality Basics](day-18-testing-and-quality-basics.md) |
-| 19 | [GitHub Issues and Project Planning](day-19-github-issues-project-planning.md) |
-| 20 | [DevSecOps Fundamentals](day-20-devsecops-fundamentals.md) |
-| 21 | [AIOps Fundamentals](day-21-aiops-fundamentals.md) |
-| 22 | [GitHub Actions Introduction](day-22-github-actions-introduction.md) |
-| 23 | [Week 3 Review and Automation Challenge](day-23-week-3-review-automation-challenge.md) |
-| 24 | [Prompt Engineering for Learning and Building](day-24-prompt-engineering-for-learning-building.md) |
-| 25 | [AI-Assisted Coding Workflow](day-25-ai-assisted-coding-workflow.md) |
-| 26 | [Capstone Design](day-26-capstone-design.md) |
-| 27 | [Capstone Build Day 1](day-27-capstone-build-day-1.md) |
-| 28 | [Capstone Build Day 2](day-28-capstone-build-day-2.md) |
-| 29 | [Add DevOps, DevSecOps, and AIOps Discipline](day-29-add-devops-devsecops-aiops-discipline.md) |
-| 30 | [Documentation, Showcase, and Next Steps](day-30-documentation-showcase-next-steps.md) |
+| Day | Date | Published session or status | Speaker(s) |
+| --- | --- | --- | --- |
+| 1 | 1 October 2026 | [Introduction to AI Concepts and Tools](day-01.md) | Imoh Etuk |
+| 2 | 2 October 2026 | [Responsible AI for AI Users](day-02.md) | MMAUG facilitator to be confirmed |
+| 3 | 3 October 2026 | [Introduction to DevOps](day-03.md) | Adedeji Awolesi |
+| 4 | 4 October 2026 | [Rest day](day-04.md) | No live session |
+| 5 | 5 October 2026 | [Fundamentals of DevOps CI/CD Pipelines](day-05.md) | Balogun James |
+| 6 | 6 October 2026 | [Microsoft Azure fundamentals](day-06.md) | Oluwafemi Akinfenwa |
+| 7 | 7 October 2026 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](day-07.md) | Arinze Edeh |
+| 8 | 8 October 2026 | [Responsible AI for AI Builders](day-08.md) | MMAUG facilitator to be confirmed |
+| 9 | 9 October 2026 | [Learn the ABCs of Git & GitHub for AI Apps](day-09.md) | Imoh Etuk |
+| 10 | 10 October 2026 | [AI Security Fundamentals](day-10.md) | David Okeyode |
+| 11 | 11 October 2026 | [Rest day](day-11.md) | No live session |
+| 12 | 12 October 2026 | [Microsoft Foundry Overview and Single Agent Deployment](day-12.md) | Aniema Inyang |
+| 13 | 13 October 2026 | [DevOps Tooling](day-13.md) | Balogun James |
+| 14 | 14 October 2026 | [Code Smarter, Not Alone: Your First Steps with GitHub Copilot](day-14.md) | Tiago Costa |
+| 15 | 15 October 2026 | [How Large Language Models Actually Work (Without the Hype)](day-15.md) | Martyn Coupland |
+| 16 | 16 October 2026 | [Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration](day-16.md) | Achraf Ben Alaya |
+| 17 | 17 October 2026 | [AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners](day-17.md) | Prakash Nagaraj |
+| 18 | 18 October 2026 | [Rest day](day-18.md) | No live session |
+| 19 | 19 October 2026 | [Automating Azure DevOps Workflows Using Foundry Models](day-19.md) | Promise Uche Nwachukwu |
+| 20 | 20 October 2026 | [Exploring Specialized Agents in Microsoft 365 Copilot](day-20.md) | Nanddeep Nachan, Smita Nachan |
+| 21 | 21 October 2026 | [Prompt Craft Foundations](day-21.md) | Olawale Bello |
+| 22 | 22 October 2026 | [Building Smarter Agents with Reflection and Planning](day-22.md) | Luis Beltran |
+| 23 | 23 October 2026 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](day-23.md) | Rajaniesh Kaushikk |
+| 24 | 24 October 2026 | [From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Required)](day-24.md) | Roberto Corella |
+| 25 | 25 October 2026 | [Rest day](day-25.md) | No live session |
+| 26 | 26 October 2026 | [Advanced DevOps CICD Pipeline Process](day-26.md) | Imoh Etuk |
+| 27 | 27 October 2026 | [Schedule pending](day-27.md) | To be announced |
+| 28 | 28 October 2026 | [Schedule pending](day-28.md) | To be announced |
+| 29 | 29 October 2026 | [Schedule pending](day-29.md) | To be announced |
+| 30 | 30 October 2026 | [Schedule pending](day-30.md) | To be announced |
 
+## Updating the programme
+
+1. Add or update sessions in the MMAUG administration calendar.
+2. Add reviewed public lab URLs to [`resources/session-labs.json`](../resources/session-labs.json), keyed by session ID.
+3. Run `node scripts/sync-live-programme.mjs` from the repository root.
+4. Review the generated changes before committing them.
+
+The generator preserves repository URLs for sessions that remain in the feed and adds an empty mapping for each new session.

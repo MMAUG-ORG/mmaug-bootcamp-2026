@@ -14,14 +14,18 @@ MMAUG-Bootcamp-2026/
 ├── FAQ.md
 ├── PRIZES.md
 ├── REPOSITORY-GUIDE.md
+├── PROGRAMME-SCHEDULE.md
 ├── days/
-│   ├── day-01-welcome-and-learning-mindset.md
-│   ├── day-02-computer-internet-developer-basics.md
-│   └── ...
+│   ├── README.md
+│   ├── day-01.md
+│   └── day-30.md
 ├── resources/
 │   ├── ai-module-catalog.md
 │   ├── learning-links.md
-│   └── prompt-templates.md
+│   ├── prompt-templates.md
+│   └── session-labs.json
+├── scripts/
+│   └── sync-live-programme.mjs
 └── templates/
     ├── daily-reflection.md
     ├── learner-profile.md
