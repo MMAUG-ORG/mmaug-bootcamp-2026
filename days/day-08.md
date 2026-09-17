@@ -5,7 +5,7 @@
 ## Responsible AI for AI Builders
 
 - **Time:** 18:00–19:45 Malta time
-- **Speaker(s):** MMAUG facilitator to be confirmed
+- **Speaker(s):** Imoh Etuk
 - **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
 
 ### Session overview

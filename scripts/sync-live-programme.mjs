@@ -7,15 +7,25 @@ const daysDirectory = path.join(root, "days");
 const labMapPath = path.join(root, "resources", "session-labs.json");
 const sourceUrl = process.env.PROGRAMME_SOURCE_URL || "https://mmaug.com/api/sessionize/sessions";
 const reviewDeadline = "Wednesday, 30 September 2026 at 14:00 CEST (Malta time)";
+const capstoneDeadline = "Saturday, 7 November 2026 at 23:59 CET (Malta time)";
 
 const response = await fetch(sourceUrl, { headers: { accept: "application/json" } });
 if (!response.ok) throw new Error(`Programme endpoint returned HTTP ${response.status}.`);
 const payload = await response.json();
 if (!payload || !Array.isArray(payload.sessions)) throw new Error("Programme endpoint did not return a sessions array.");
 
-const sessions = payload.sessions
+const publishedSessions = payload.sessions
   .filter((session) => session && typeof session.id === "string" && typeof session.title === "string" && typeof session.startsAt === "string")
-  .filter((session) => session.startsAt.slice(0, 7) === "2026-10")
+  .filter((session) => session.startsAt.slice(0, 7) === "2026-10");
+const capstoneSessions = [
+  { id: "capstone-recruitment-assistant", title: "Hands-on Project: Recruitment Assistant", description: "Build an AI-assisted recruitment workflow that can review candidate information, support shortlisting and explain its recommendations responsibly.", startsAt: "2026-10-28T18:00:00+01:00", endsAt: "2026-10-28T19:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
+  { id: "capstone-insurance-claims-agent", title: "Hands-on Project: Insurance Claims Agent", description: "Create an agent that captures a claim, validates supplied information and produces a traceable recommendation for human review.", startsAt: "2026-10-28T19:00:00+01:00", endsAt: "2026-10-28T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
+  { id: "capstone-school-login-portal", title: "Hands-on Project: School Login Portal", description: "Build a secure school portal login experience with role-aware access, validation and clear authentication error handling.", startsAt: "2026-10-29T18:00:00+01:00", endsAt: "2026-10-29T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
+  { id: "capstone-taxi-recommender", title: "Hands-on Project: Taxi Recommender using Bolt and Uber APIs", description: "Design a taxi recommendation experience that compares available options through the Bolt and Uber APIs while handling credentials, availability and API failures safely.", startsAt: "2026-10-30T18:00:00+01:00", endsAt: "2026-10-30T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
+  { id: "capstone-financial-fraud-detection", title: "Hands-on Project: Financial Fraud Detection Agent", description: "Develop an explainable fraud-detection agent that evaluates transaction signals, flags suspicious activity and keeps a human reviewer in control.", startsAt: "2026-10-31T18:00:00+01:00", endsAt: "2026-10-31T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
+];
+const publishedKeys = new Set(publishedSessions.map((session) => `${session.title.trim().toLowerCase()}|${session.startsAt.slice(0, 10)}`));
+const sessions = [...publishedSessions, ...capstoneSessions.filter((session) => !publishedKeys.has(`${session.title.toLowerCase()}|${session.startsAt.slice(0, 10)}`))]
   .sort((left, right) => left.startsAt.localeCompare(right.startsAt));
 const existingLabMap = JSON.parse(await readFile(labMapPath, "utf8").catch(() => "{}"));
 const labMap = Object.fromEntries(sessions.map((session) => [session.id, typeof existingLabMap[session.id] === "string" ? existingLabMap[session.id] : ""]));
@@ -45,7 +55,7 @@ for (const file of await readdir(daysDirectory)) {
 
 const indexRows = [];
 const scheduleRows = [];
-for (let day = 1; day <= 30; day += 1) {
+for (let day = 1; day <= 31; day += 1) {
   const date = isoDate(day);
   const dateLabel = dateFormatter.format(new Date(`${date}T12:00:00Z`));
   const daySessions = byDate.get(date) || [];
@@ -66,6 +76,7 @@ for (let day = 1; day <= 30; day += 1) {
     body = `# Day ${String(day).padStart(2, "0")} — Schedule pending\n\n**Date:** ${dateLabel}\n\nNo session is currently published for this date. The [MMAUG bootcamp calendar](https://mmaug.com/bootcamp) is the source of truth and this page should be regenerated after an administrator publishes a session.\n`;
     indexRows.push(`| ${day} | ${dateLabel} | [Schedule pending](${fileName(day)}) | To be announced |`);
   }
+  if (day === 31) body += `\n## Final capstone submission\n\nLearners have one week from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **${capstoneDeadline}**.\n`;
   await writeFile(path.join(daysDirectory, fileName(day)), `${body}\n`, "utf8");
 }
 
@@ -75,4 +86,4 @@ await writeFile(path.join(daysDirectory, "README.md"), index, "utf8");
 const schedule = `# 2026 Live Programme and Speaker Lab Repositories\n\nThis schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **${generatedOn}**. All times are Malta local time. The website calendar remains the source of truth.\n\nSpeakers should publish practical resources in a public GitHub repository and send the link by **${reviewDeadline}**. Add approved URLs to [\`resources/session-labs.json\`](resources/session-labs.json), then run \`node scripts/sync-live-programme.mjs\`.\n\n| Date | Time | Session | Speaker(s) | Speaker lab repository |\n| --- | --- | --- | --- | --- |\n${scheduleRows.join("\n")}\n\n## Minimum lab repository checklist\n\nEach public speaker repository should contain:\n\n- a clear README and learning objectives;\n- prerequisites and setup instructions;\n- step-by-step lab instructions;\n- sample code, templates, prompts, or other learner files;\n- cleanup instructions where cloud resources can incur cost; and\n- a license or reuse statement for the published materials.\n\nDo not add a repository link until it opens without authentication and the content review is complete.\n`;
 await writeFile(path.join(root, "PROGRAMME-SCHEDULE.md"), schedule, "utf8");
 await writeFile(labMapPath, `${JSON.stringify(labMap, null, 2)}\n`, "utf8");
-console.log(`Synchronized ${sessions.length} published sessions across 30 October day files.`);
+console.log(`Synchronized ${sessions.length} published sessions across 31 October day files.`);

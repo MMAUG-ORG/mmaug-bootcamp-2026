@@ -1,8 +1,8 @@
-# Day 30 — Hands-on Project: Taxi Recommender using Bolt and Uber APIs
+# Day 31 — Hands-on Project: Financial Fraud Detection Agent
 
-**Date:** 30 October 2026
+**Date:** 31 October 2026
 
-## Hands-on Project: Taxi Recommender using Bolt and Uber APIs
+## Hands-on Project: Financial Fraud Detection Agent
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** MMAUG Capstone Facilitators
@@ -10,7 +10,7 @@
 
 ### Session overview
 
-Design a taxi recommendation experience that compares available options through the Bolt and Uber APIs while handling credentials, availability and API failures safely.
+Develop an explainable fraud-detection agent that evaluates transaction signals, flags suspicious activity and keeps a human reviewer in control.
 
 ### Lab resource requirements
 
@@ -22,4 +22,8 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
+
+## Final capstone submission
+
+Learners have one week from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **Saturday, 7 November 2026 at 23:59 CET (Malta time)**.
 

@@ -29,7 +29,7 @@ MMAUG-Bootcamp-2026/
 ├── days/
 │   ├── README.md
 │   ├── day-01.md
-│   └── day-30.md
+│   └── day-31.md
 ├── resources/
 │   ├── ai-module-catalog.md
 │   ├── learning-links.md
