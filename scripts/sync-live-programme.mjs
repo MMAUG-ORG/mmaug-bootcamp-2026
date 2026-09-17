@@ -62,7 +62,6 @@ for (let day = 1; day <= 30; day += 1) {
     indexRows.push(`| ${day} | ${dateLabel} | [${tableText(daySessions.map((session) => cleanTitle(session.title)).join(" / "))}](${fileName(day)}) | ${tableText(daySessions.map(speakerNames).join(" / "))} |`);
   } else if (isSunday) {
     body = `# Day ${String(day).padStart(2, "0")} — Rest day\n\n**Date:** ${dateLabel}\n\nThere is no scheduled live bootcamp session. Use the day to rest, catch up on incomplete labs, organize your notes, and check the [live programme](https://mmaug.com/bootcamp) for later updates.\n`;
-    indexRows.push(`| ${day} | ${dateLabel} | [Rest day](${fileName(day)}) | No live session |`);
   } else {
     body = `# Day ${String(day).padStart(2, "0")} — Schedule pending\n\n**Date:** ${dateLabel}\n\nNo session is currently published for this date. The [MMAUG bootcamp calendar](https://mmaug.com/bootcamp) is the source of truth and this page should be regenerated after an administrator publishes a session.\n`;
     indexRows.push(`| ${day} | ${dateLabel} | [Schedule pending](${fileName(day)}) | To be announced |`);
