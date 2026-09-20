@@ -25,5 +25,4 @@ The public repository should provide prerequisites, setup steps, guided exercise
 
 ## Final capstone submission
 
-Learners have one week from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **Saturday, 7 November 2026 at 23:59 CET (Malta time)**.
-
+Learners have two weeks from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **Saturday, 14 November 2026 at 23:59 CET (Malta time)**.

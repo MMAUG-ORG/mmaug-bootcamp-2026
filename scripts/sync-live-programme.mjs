@@ -7,7 +7,7 @@ const daysDirectory = path.join(root, "days");
 const labMapPath = path.join(root, "resources", "session-labs.json");
 const sourceUrl = process.env.PROGRAMME_SOURCE_URL || "https://mmaug.com/api/sessionize/sessions";
 const reviewDeadline = "Wednesday, 30 September 2026 at 14:00 CEST (Malta time)";
-const capstoneDeadline = "Saturday, 7 November 2026 at 23:59 CET (Malta time)";
+const capstoneDeadline = "Saturday, 14 November 2026 at 23:59 CET (Malta time)";
 
 const response = await fetch(sourceUrl, { headers: { accept: "application/json" } });
 if (!response.ok) throw new Error(`Programme endpoint returned HTTP ${response.status}.`);
@@ -76,7 +76,7 @@ for (let day = 1; day <= 31; day += 1) {
     body = `# Day ${String(day).padStart(2, "0")} — Schedule pending\n\n**Date:** ${dateLabel}\n\nNo session is currently published for this date. The [MMAUG bootcamp calendar](https://mmaug.com/bootcamp) is the source of truth and this page should be regenerated after an administrator publishes a session.\n`;
     indexRows.push(`| ${day} | ${dateLabel} | [Schedule pending](${fileName(day)}) | To be announced |`);
   }
-  if (day === 31) body += `\n## Final capstone submission\n\nLearners have one week from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **${capstoneDeadline}**.\n`;
+  if (day === 31) body += `\n## Final capstone submission\n\nLearners have two weeks from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **${capstoneDeadline}**.\n`;
   await writeFile(path.join(daysDirectory, fileName(day)), `${body}\n`, "utf8");
 }
 
