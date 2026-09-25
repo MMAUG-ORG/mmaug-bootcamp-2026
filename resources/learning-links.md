@@ -41,6 +41,22 @@ Use these alongside the MMAUG live programme. They are self-paced Microsoft Lear
 
 AI-103 is intermediate. Complete the fundamentals content, become comfortable with Python and APIs, and finish the relevant bootcamp labs before treating it as an exam-preparation track.
 
+### AZ-400: Designing and Implementing Microsoft DevOps Solutions
+
+- [AZ-400 self-paced course](https://learn.microsoft.com/training/courses/az-400t00) — Microsoft's advanced course covering DevOps planning, source control, dependency management, secrets, continuous integration, container builds, release strategies, deployment patterns and feedback mechanisms.
+- [AZ-400 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-400) — the current skills measured, exam preparation resources and detailed objective breakdown.
+- [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/credentials/certifications/devops-engineer/) — certification requirements, prerequisites and renewal information.
+
+The current AZ-400 learning domains are:
+
+1. Design and implement processes and communications.
+2. Design and implement a source-control strategy.
+3. Design and implement build and release pipelines.
+4. Develop a security and compliance plan.
+5. Implement an instrumentation strategy.
+
+AZ-400 is an advanced follow-on pathway, not a beginner starting point. Microsoft expects candidates to have experience administering and developing in Azure and implementing GitHub and Azure DevOps solutions. The DevOps Engineer Expert certification also requires the Azure Administrator Associate or Azure Developer Associate certification in addition to passing AZ-400. Complete the relevant bootcamp Git, GitHub, Azure and CI/CD sessions and gain further hands-on experience before treating this as an exam-preparation track.
+
 ## AI Fundamentals References
 
 | Topic | Resource | Link |

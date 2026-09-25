@@ -6,7 +6,7 @@ This is an expert-led, beginner-friendly community programme built from sessions
 
 Participants learn directly from practitioners, complete speaker-supported labs and finish with practical capstone projects. The goal is not to turn participants into experts in one month. It is to build vocabulary, sound technical habits, tooling confidence and enough hands-on experience to continue into projects, hackathons, internships and deeper specialist learning.
 
-Microsoft AI-900 and AI-103 resources are included only as **optional self-paced follow-on learning**. They supplement the speaker-led programme and do not define its session order, curriculum or certificate requirements.
+Microsoft AI-900, AI-103 and AZ-400 resources are included only as **optional self-paced follow-on learning**. They supplement the speaker-led programme and do not define its session order, curriculum or certificate requirements.
 
 ## Bootcamp Snapshot
 
@@ -77,8 +77,9 @@ Participants who want additional structured study can use the Microsoft Learn re
 
 - **AI-900 foundations** are retained as optional foundational reading. AI-900 was retired on 30 June 2026, so learners should check Microsoft Learn for the current replacement certification before planning an exam.
 - **AI-103** is an intermediate self-paced path for developing AI apps and agents on Azure. Learners should treat it as follow-on study after building sufficient fundamentals and practical experience.
+- **AZ-400** is an advanced follow-on path for designing and implementing Microsoft DevOps solutions. It covers collaboration and process design, source control, build and release pipelines, security and compliance, and instrumentation. Learners should first build practical Azure, GitHub and Azure DevOps experience and review Microsoft's current certification prerequisites.
 
-Neither path replaces attendance, speaker labs, capstone work or the MMAUG certificate-completion requirements.
+None of these paths replaces attendance, speaker labs, capstone work or the MMAUG certificate-completion requirements.
 
 ## Capstone and Prizes
 
