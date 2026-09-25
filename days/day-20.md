@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Nanddeep Nachan, Smita Nachan
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot](https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot)
 
 ### Session overview
 

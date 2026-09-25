@@ -22,7 +22,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 16 October 2026 | 18:00–19:45 | [Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration](days/day-16.md) | Achraf Ben Alaya | _Awaiting speaker submission_ |
 | 17 October 2026 | 18:00–19:45 | [AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners](days/day-17.md) | Prakash Nagaraj | _Awaiting speaker submission_ |
 | 19 October 2026 | 18:00–19:45 | [Automating Azure DevOps Workflows Using Foundry Models](days/day-19.md) | Promise Uche Nwachukwu | _Awaiting speaker submission_ |
-| 20 October 2026 | 18:00–19:45 | [Exploring Specialized Agents in Microsoft 365 Copilot](days/day-20.md) | Nanddeep Nachan, Smita Nachan | _Awaiting speaker submission_ |
+| 20 October 2026 | 18:00–19:45 | [Exploring Specialized Agents in Microsoft 365 Copilot](days/day-20.md) | Nanddeep Nachan, Smita Nachan | [Open lab repository](https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot) |
 | 21 October 2026 | 18:00–20:00 | [Prompt Craft Foundations](days/day-21.md) | Olawale Bello | _Awaiting speaker submission_ |
 | 22 October 2026 | 18:00–19:45 | [Building Smarter Agents with Reflection and Planning](days/day-22.md) | Luis Beltran | _Awaiting speaker submission_ |
 | 23 October 2026 | 18:00–20:00 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](days/day-23.md) | Rajaniesh Kaushikk | _Awaiting speaker submission_ |
