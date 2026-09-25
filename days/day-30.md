@@ -1,8 +1,8 @@
-# Day 30 — Hands-on Project: Taxi Recommender using Bolt and Uber APIs
+# Day 30 — Capstone Project: Fabrikam Mobility Taxi Recommender
 
 **Date:** 30 October 2026
 
-## Hands-on Project: Taxi Recommender using Bolt and Uber APIs
+## Capstone Project: Fabrikam Mobility Taxi Recommender
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** MMAUG Capstone Facilitators
@@ -10,7 +10,7 @@
 
 ### Session overview
 
-Design a taxi recommendation experience that compares available options through the Bolt and Uber APIs while handling credentials, availability and API failures safely.
+Create an extensible mobility recommender using permitted sandbox or public integrations and customer-provided mock services where commercial APIs are unavailable. Normalise provider results, explain recommendations and degrade safely when a provider fails.
 
 ### Lab resource requirements
 
@@ -22,4 +22,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-

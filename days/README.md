@@ -1,16 +1,16 @@
 # Daily Programme Index
 
-This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **17 September 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
+This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **25 September 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
 
 | Day | Date | Published session or status | Speaker(s) |
 | --- | --- | --- | --- |
 | 1 | 1 October 2026 | [Introduction to AI Concepts and Tools](day-01.md) | Imoh Etuk |
-| 2 | 2 October 2026 | [Responsible AI for AI Users](day-02.md) | MMAUG facilitator to be confirmed |
+| 2 | 2 October 2026 | [Responsible AI for AI Users](day-02.md) | Sai Pavan Kumar Gopularam |
 | 3 | 3 October 2026 | [Introduction to DevOps](day-03.md) | Adedeji Awolesi |
 | 5 | 5 October 2026 | [Fundamentals of DevOps CI/CD Pipelines](day-05.md) | Balogun James |
 | 6 | 6 October 2026 | [Microsoft Azure fundamentals](day-06.md) | Oluwafemi Akinfenwa |
 | 7 | 7 October 2026 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](day-07.md) | Arinze Edeh |
-| 8 | 8 October 2026 | [Responsible AI for AI Builders](day-08.md) | Imoh Etuk |
+| 8 | 8 October 2026 | [Responsible AI for AI Builders](day-08.md) | Moses Ashang |
 | 9 | 9 October 2026 | [Learn the ABCs of Git & GitHub for AI Apps](day-09.md) | Imoh Etuk |
 | 10 | 10 October 2026 | [AI Security Fundamentals](day-10.md) | David Okeyode |
 | 12 | 12 October 2026 | [Microsoft Foundry Overview and Single Agent Deployment](day-12.md) | Aniema Inyang |
@@ -25,12 +25,12 @@ This folder mirrors the sessions currently published on the [MMAUG bootcamp page
 | 22 | 22 October 2026 | [Building Smarter Agents with Reflection and Planning](day-22.md) | Luis Beltran |
 | 23 | 23 October 2026 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](day-23.md) | Rajaniesh Kaushikk |
 | 24 | 24 October 2026 | [From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Required)](day-24.md) | Roberto Corella |
-| 26 | 26 October 2026 | [Schedule pending](day-26.md) | To be announced |
-| 27 | 27 October 2026 | [Advanced DevOps CICD Pipeline Process](day-27.md) | Imoh Etuk |
-| 28 | 28 October 2026 | [Hands-on Project: Recruitment Assistant / Hands-on Project: Insurance Claims Agent](day-28.md) | MMAUG Capstone Facilitators / MMAUG Capstone Facilitators |
-| 29 | 29 October 2026 | [Hands-on Project: School Login Portal](day-29.md) | MMAUG Capstone Facilitators |
-| 30 | 30 October 2026 | [Hands-on Project: Taxi Recommender using Bolt and Uber APIs](day-30.md) | MMAUG Capstone Facilitators |
-| 31 | 31 October 2026 | [Hands-on Project: Financial Fraud Detection Agent](day-31.md) | MMAUG Capstone Facilitators |
+| 26 | 26 October 2026 | [Git & GitHub: From Zero to Contributor](day-26.md) | Harshavardhan Bajoria |
+| 27 | 27 October 2026 | [Advanced Cloud Architecture & DevOps CICD Pipeline Process](day-27.md) | Imoh Etuk |
+| 28 | 28 October 2026 | [Capstone Project: Contoso Recruitment Assistant / Capstone Project: MMAUG Insurance Claims Agent](day-28.md) | MMAUG Capstone Facilitators / MMAUG Capstone Facilitators |
+| 29 | 29 October 2026 | [Capstone Project: MMAUG High School Secure Login Portal](day-29.md) | MMAUG Capstone Facilitators |
+| 30 | 30 October 2026 | [Capstone Project: Fabrikam Mobility Taxi Recommender](day-30.md) | MMAUG Capstone Facilitators |
+| 31 | 31 October 2026 | [Capstone Project: MMAUG Bank Financial Fraud Detection Agent](day-31.md) | MMAUG Capstone Facilitators |
 
 ## Updating the programme
 

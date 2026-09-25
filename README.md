@@ -2,18 +2,20 @@
 
 Welcome to the **Malta Microsoft AI User Group (MMAUG) 30-Day AI and DevOps Fundamentals Bootcamp**.
 
-This bootcamp is designed for beginners who want the prerequisite skills needed to enter AI, cloud, and DevOps learning paths with confidence. The AI fundamentals content is inspired by Microsoft AI certification-style learning outcomes, including AI-901/AI-103-style foundations, plus practical modern AI concepts learners now meet in real projects: large language models, context windows, tokenization, prompt engineering, context engineering, model parameters, agentic workflows, open-source model providers, and responsible use of AI.
+This is an expert-led, beginner-friendly community programme built from sessions contributed by speakers across AI, cloud, software development, Git and GitHub, responsible AI, security, Microsoft Foundry, AI agents, Copilot, DevOps, CI/CD, governance, automation and related technology domains. The live programme is intentionally multidisciplinary: it is not structured around the syllabus of a single Microsoft certification exam.
 
-The goal is not to turn participants into experts in 30 days. The goal is to help them build the vocabulary, habits, tooling confidence, and hands-on foundation they need before joining hackathons, internships, cloud projects, AI projects, and more advanced Microsoft learning journeys.
+Participants learn directly from practitioners, complete speaker-supported labs and finish with practical capstone projects. The goal is not to turn participants into experts in one month. It is to build vocabulary, sound technical habits, tooling confidence and enough hands-on experience to continue into projects, hackathons, internships and deeper specialist learning.
+
+Microsoft AI-900 and AI-103 resources are included only as **optional self-paced follow-on learning**. They supplement the speaker-led programme and do not define its session order, curriculum or certificate requirements.
 
 ## Bootcamp Snapshot
 
 - **Audience**: Beginners, students, career switchers, early-career technologists, and community members new to AI or DevOps
-- **Duration**: 30 days
+- **Programme dates**: 1–31 October 2026, with published live sessions, rest days and capstone workshops
 - **Recommended pace**: 60 to 120 minutes per day
-- **Format**: Short lessons, guided labs, daily practice, reflection, and a final portfolio project
-- **Focus areas**: AI fundamentals, LLM fundamentals, prompt engineering, context engineering, model behavior, cloud basics, GitHub, command line, Python, DevOps, DevSecOps, AIOps, agentic DevOps, automation, responsible AI, and project delivery
-- **Primary platforms**: GitHub, Microsoft Learn, Azure fundamentals concepts, GitHub Actions, and beginner-friendly AI tooling
+- **Format**: Live expert sessions, practical labs, guided independent study, reflection and final capstone projects
+- **Focus areas**: AI concepts, responsible AI, AI security, Azure, Microsoft Foundry, LLMs, agents, Copilot, prompt design, Git and GitHub, DevOps, CI/CD, governance, automation and project delivery
+- **Primary platforms**: GitHub, Microsoft Azure and Foundry tooling, Microsoft 365 Copilot, GitHub Copilot, Microsoft Learn and speaker-selected lab platforms
 
 ## Repository Structure
 
@@ -55,12 +57,28 @@ By the end of the bootcamp, each participant should have:
 - A beginner DevOps workflow using GitHub Actions
 - A final capstone project that demonstrates AI and DevOps fundamentals together
 
-## Learning Tracks
+## How the Curriculum Is Organized
 
-The `main` branch contains both tracks together so organizers and learners can see the full bootcamp path.
+The curriculum follows the [published live programme](PROGRAMME-SCHEDULE.md), not an exam blueprint. Sessions are arranged to help beginners establish core concepts first and then explore applied topics delivered by specialist community speakers.
 
-- **AI Fundamentals**: AI concepts, machine learning basics, generative AI, LLMs, tokenization, context windows, prompt engineering, context engineering, model providers, evaluation, and responsible AI.
-- **DevOps Fundamentals**: GitHub, collaboration, CI/CD, testing, DevSecOps, AIOps, agentic DevOps, release discipline, monitoring, and delivery habits.
+The programme brings together several connected domains:
+
+- AI concepts, responsible AI, security, LLMs, prompting and model behaviour;
+- Azure, Microsoft Foundry, AI agents, governance and Microsoft 365 Copilot;
+- Git, GitHub, collaborative development and AI-assisted coding;
+- DevOps, CI/CD, cloud architecture, automation and delivery practices; and
+- practical capstone scenarios that require documentation, responsible design and evidence of implementation.
+
+Each dated page under [`days/`](days/) identifies the actual speaker, session overview and approved public lab repository. The website calendar remains the source of truth for schedule changes.
+
+## Optional Microsoft Self-Paced Learning
+
+Participants who want additional structured study can use the Microsoft Learn resources collected in [`resources/learning-links.md`](resources/learning-links.md#microsoft-self-paced-certification-learning-paths).
+
+- **AI-900 foundations** are retained as optional foundational reading. AI-900 was retired on 30 June 2026, so learners should check Microsoft Learn for the current replacement certification before planning an exam.
+- **AI-103** is an intermediate self-paced path for developing AI apps and agents on Azure. Learners should treat it as follow-on study after building sufficient fundamentals and practical experience.
+
+Neither path replaces attendance, speaker labs, capstone work or the MMAUG certificate-completion requirements.
 
 ## Capstone and Prizes
 
@@ -73,7 +91,7 @@ MMAUG is working to secure sponsorship or support for Microsoft Certification ex
 1. Start with [BOOTCAMP-GUIDE.md](BOOTCAMP-GUIDE.md).
 2. Check the [live programme and speaker lab repositories](PROGRAMME-SCHEDULE.md) for the actual session timetable and hands-on resources.
 3. Use the daily lesson files in [days/](days/) during delivery.
-4. Follow the [Microsoft self-paced certification learning paths](resources/learning-links.md#microsoft-self-paced-certification-learning-paths) alongside the live sessions.
+4. Use the [optional Microsoft self-paced learning paths](resources/learning-links.md#microsoft-self-paced-certification-learning-paths) for further study beyond the live curriculum.
 5. Review [CAPSTONE-EXPECTATIONS.md](CAPSTONE-EXPECTATIONS.md) before starting the capstone.
 6. Read [FAQ.md](FAQ.md) before registration or onboarding.
 7. Use [REPOSITORY-GUIDE.md](REPOSITORY-GUIDE.md) to understand how the bootcamp repo should be organized.

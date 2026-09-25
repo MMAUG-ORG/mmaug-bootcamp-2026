@@ -5,7 +5,7 @@
 ## Responsible AI for AI Builders
 
 - **Time:** 18:00–19:45 Malta time
-- **Speaker(s):** Imoh Etuk
+- **Speaker(s):** Moses Ashang
 - **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
 
 ### Session overview
@@ -22,4 +22,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-

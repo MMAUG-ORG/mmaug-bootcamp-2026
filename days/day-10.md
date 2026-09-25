@@ -10,7 +10,7 @@
 
 ### Session overview
 
-Session details will be provided by the facilitator.
+Most AI adoption projects fail because organizations move so quickly that they overlook the fundamentals of securing AI systems. In this session, we'll go back to basics: how to get visibility into your AI agents, govern the tools and data sources they rely on, and handle agent identity and runtime security. You'll leave with a practical foundation for building security into your AI architecture from the start.
 
 ### Lab resource requirements
 
@@ -22,4 +22,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-

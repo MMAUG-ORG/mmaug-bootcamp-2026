@@ -1,8 +1,8 @@
-# Day 31 — Hands-on Project: Financial Fraud Detection Agent
+# Day 31 — Capstone Project: MMAUG Bank Financial Fraud Detection Agent
 
 **Date:** 31 October 2026
 
-## Hands-on Project: Financial Fraud Detection Agent
+## Capstone Project: MMAUG Bank Financial Fraud Detection Agent
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** MMAUG Capstone Facilitators
@@ -10,7 +10,7 @@
 
 ### Session overview
 
-Develop an explainable fraud-detection agent that evaluates transaction signals, flags suspicious activity and keeps a human reviewer in control.
+Develop an explainable fraud-detection platform that evaluates synthetic transaction signals, creates evidence-based investigation alerts and keeps consequential actions with authorised human or deterministic workflows.
 
 ### Lab resource requirements
 

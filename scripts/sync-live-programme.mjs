@@ -17,16 +17,7 @@ if (!payload || !Array.isArray(payload.sessions)) throw new Error("Programme end
 const publishedSessions = payload.sessions
   .filter((session) => session && typeof session.id === "string" && typeof session.title === "string" && typeof session.startsAt === "string")
   .filter((session) => session.startsAt.slice(0, 7) === "2026-10");
-const capstoneSessions = [
-  { id: "capstone-recruitment-assistant", title: "Hands-on Project: Recruitment Assistant", description: "Build an AI-assisted recruitment workflow that can review candidate information, support shortlisting and explain its recommendations responsibly.", startsAt: "2026-10-28T18:00:00+01:00", endsAt: "2026-10-28T19:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
-  { id: "capstone-insurance-claims-agent", title: "Hands-on Project: Insurance Claims Agent", description: "Create an agent that captures a claim, validates supplied information and produces a traceable recommendation for human review.", startsAt: "2026-10-28T19:00:00+01:00", endsAt: "2026-10-28T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
-  { id: "capstone-school-login-portal", title: "Hands-on Project: School Login Portal", description: "Build a secure school portal login experience with role-aware access, validation and clear authentication error handling.", startsAt: "2026-10-29T18:00:00+01:00", endsAt: "2026-10-29T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
-  { id: "capstone-taxi-recommender", title: "Hands-on Project: Taxi Recommender using Bolt and Uber APIs", description: "Design a taxi recommendation experience that compares available options through the Bolt and Uber APIs while handling credentials, availability and API failures safely.", startsAt: "2026-10-30T18:00:00+01:00", endsAt: "2026-10-30T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
-  { id: "capstone-financial-fraud-detection", title: "Hands-on Project: Financial Fraud Detection Agent", description: "Develop an explainable fraud-detection agent that evaluates transaction signals, flags suspicious activity and keeps a human reviewer in control.", startsAt: "2026-10-31T18:00:00+01:00", endsAt: "2026-10-31T20:00:00+01:00", speakers: [{ name: "MMAUG Capstone Facilitators" }] },
-];
-const publishedKeys = new Set(publishedSessions.map((session) => `${session.title.trim().toLowerCase()}|${session.startsAt.slice(0, 10)}`));
-const sessions = [...publishedSessions, ...capstoneSessions.filter((session) => !publishedKeys.has(`${session.title.toLowerCase()}|${session.startsAt.slice(0, 10)}`))]
-  .sort((left, right) => left.startsAt.localeCompare(right.startsAt));
+const sessions = publishedSessions.sort((left, right) => left.startsAt.localeCompare(right.startsAt));
 const existingLabMap = JSON.parse(await readFile(labMapPath, "utf8").catch(() => "{}"));
 const labMap = Object.fromEntries(sessions.map((session) => [session.id, typeof existingLabMap[session.id] === "string" ? existingLabMap[session.id] : ""]));
 
@@ -77,7 +68,7 @@ for (let day = 1; day <= 31; day += 1) {
     indexRows.push(`| ${day} | ${dateLabel} | [Schedule pending](${fileName(day)}) | To be announced |`);
   }
   if (day === 31) body += `\n## Final capstone submission\n\nLearners have two weeks from the final workshop to complete and submit one documented capstone project. The submission deadline for certificate review is **${capstoneDeadline}**.\n`;
-  await writeFile(path.join(daysDirectory, fileName(day)), `${body}\n`, "utf8");
+  await writeFile(path.join(daysDirectory, fileName(day)), `${body.trimEnd()}\n`, "utf8");
 }
 
 const index = `# Daily Programme Index\n\nThis folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **${generatedOn}** with \`node scripts/sync-live-programme.mjs\`. All times are Malta local time.\n\n| Day | Date | Published session or status | Speaker(s) |\n| --- | --- | --- | --- |\n${indexRows.join("\n")}\n\n## Updating the programme\n\n1. Add or update sessions in the MMAUG administration calendar.\n2. Add reviewed public lab URLs to [\`resources/session-labs.json\`](../resources/session-labs.json), keyed by session ID.\n3. Run \`node scripts/sync-live-programme.mjs\` from the repository root.\n4. Review the generated changes before committing them.\n\nThe generator preserves repository URLs for sessions that remain in the feed and adds an empty mapping for each new session.\n`;

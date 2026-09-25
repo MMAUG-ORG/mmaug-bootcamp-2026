@@ -30,4 +30,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-

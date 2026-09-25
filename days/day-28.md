@@ -1,8 +1,8 @@
-# Day 28 — Hands-on Project: Recruitment Assistant / Hands-on Project: Insurance Claims Agent
+# Day 28 — Capstone Project: Contoso Recruitment Assistant / Capstone Project: MMAUG Insurance Claims Agent
 
 **Date:** 28 October 2026
 
-## Session 1: Hands-on Project: Recruitment Assistant
+## Session 1: Capstone Project: Contoso Recruitment Assistant
 
 - **Time:** 18:00–19:00 Malta time
 - **Speaker(s):** MMAUG Capstone Facilitators
@@ -10,7 +10,7 @@
 
 ### Session overview
 
-Build an AI-assisted recruitment workflow that can review candidate information, support shortlisting and explain its recommendations responsibly.
+Design an AI-assisted recruitment solution that structures candidate evidence, supports recruiter analysis and interview preparation, and keeps all hiring decisions under human control.
 
 ### Lab resource requirements
 
@@ -25,7 +25,7 @@ The public repository should provide prerequisites, setup steps, guided exercise
 
 ---
 
-## Session 2: Hands-on Project: Insurance Claims Agent
+## Session 2: Capstone Project: MMAUG Insurance Claims Agent
 
 - **Time:** 19:00–20:00 Malta time
 - **Speaker(s):** MMAUG Capstone Facilitators
@@ -33,7 +33,7 @@ The public repository should provide prerequisites, setup steps, guided exercise
 
 ### Session overview
 
-Create an agent that captures a claim, validates supplied information and produces a traceable recommendation for human review.
+Build an agentic claims workflow that extracts and validates claim information, retrieves authorised policy evidence, handles missing data safely, and prepares a traceable summary for human review.
 
 ### Lab resource requirements
 
@@ -45,4 +45,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-

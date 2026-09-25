@@ -4,9 +4,9 @@
 
 ## Responsible AI for AI Users
 
-- **Time:** 18:00–19:00 Malta time
-- **Speaker(s):** MMAUG facilitator to be confirmed
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Time:** 18:00–19:30 Malta time
+- **Speaker(s):** Sai Pavan Kumar Gopularam
+- **Public lab repository:** [https://github.com/saip33/mmaug-responsible-ai-lab](https://github.com/saip33/mmaug-responsible-ai-lab)
 
 ### Session overview
 
@@ -22,4 +22,3 @@ The public repository should provide prerequisites, setup steps, guided exercise
 - Open or clone the approved lab repository when its link is published.
 - Complete the guided activity and keep notes in your personal bootcamp repository.
 - Record questions, blockers, and evidence of your completed work.
-
