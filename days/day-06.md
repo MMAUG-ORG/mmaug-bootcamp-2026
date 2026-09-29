@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Oluwafemi Akinfenwa
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals)
 
 ### Session overview
 

@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Martyn Coupland
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/martyncoup/mmaug-how-llms-actually-work](https://github.com/martyncoup/mmaug-how-llms-actually-work)
 
 ### Session overview
 
