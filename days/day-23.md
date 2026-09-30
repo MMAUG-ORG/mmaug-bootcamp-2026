@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Rajaniesh Kaushikk
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/rkaushik2007/agent-chaos-to-agent-control](https://github.com/rkaushik2007/agent-chaos-to-agent-control)
 
 ### Session overview
 

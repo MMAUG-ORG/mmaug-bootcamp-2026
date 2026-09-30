@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Arinze Edeh
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/arinze-edeh/azure-fundamentals-first-ai-app](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app)
 
 ### Session overview
 

@@ -1,17 +1,17 @@
 # 2026 Live Programme and Speaker Lab Repositories
 
-This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **29 September 2026**. All times are Malta local time. The website calendar remains the source of truth.
+This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **30 September 2026**. All times are Malta local time. The website calendar remains the source of truth.
 
 Speakers should publish practical resources in a public GitHub repository and send the link by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**. Add approved URLs to [`resources/session-labs.json`](resources/session-labs.json), then run `node scripts/sync-live-programme.mjs`.
 
 | Date | Time | Session | Speaker(s) | Speaker lab repository |
 | --- | --- | --- | --- | --- |
-| 1 October 2026 | 18:00–20:00 | [Introduction to AI Concepts and Tools](days/day-01.md) | Imoh Etuk | _Awaiting speaker submission_ |
+| 1 October 2026 | 18:00–20:00 | [Introduction to AI Concepts and Tools](days/day-01.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs) |
 | 2 October 2026 | 18:00–19:30 | [Responsible AI for AI Users](days/day-02.md) | Sai Pavan Kumar Gopularam | [Open lab repository](https://github.com/saip33/mmaug-responsible-ai-lab) |
 | 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | _Awaiting speaker submission_ |
 | 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | _Awaiting speaker submission_ |
 | 6 October 2026 | 18:00–20:00 | [Microsoft Azure fundamentals](days/day-06.md) | Oluwafemi Akinfenwa | [Open lab repository](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals) |
-| 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | _Awaiting speaker submission_ |
+| 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | [Open lab repository](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app) |
 | 8 October 2026 | 18:00–19:45 | [Responsible AI for AI Builders](days/day-08.md) | Moses Ashang | _Awaiting speaker submission_ |
 | 9 October 2026 | 18:00–20:00 | [Learn the ABCs of Git & GitHub for AI Apps](days/day-09.md) | Imoh Etuk | _Awaiting speaker submission_ |
 | 10 October 2026 | 01:00–02:00 | [AI Security Fundamentals](days/day-10.md) | David Okeyode | _Awaiting speaker submission_ |
@@ -25,7 +25,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 20 October 2026 | 18:00–19:45 | [Exploring Specialized Agents in Microsoft 365 Copilot](days/day-20.md) | Nanddeep Nachan, Smita Nachan | [Open lab repository](https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot) |
 | 21 October 2026 | 18:00–20:00 | [Prompt Craft Foundations](days/day-21.md) | Olawale Bello | _Awaiting speaker submission_ |
 | 22 October 2026 | 18:00–19:45 | [Building Smarter Agents with Reflection and Planning](days/day-22.md) | Luis Beltran | _Awaiting speaker submission_ |
-| 23 October 2026 | 18:00–20:00 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](days/day-23.md) | Rajaniesh Kaushikk | _Awaiting speaker submission_ |
+| 23 October 2026 | 18:00–20:00 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](days/day-23.md) | Rajaniesh Kaushikk | [Open lab repository](https://github.com/rkaushik2007/agent-chaos-to-agent-control) |
 | 24 October 2026 | 18:00–19:45 | [From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Required)](days/day-24.md) | Roberto Corella | _Awaiting speaker submission_ |
 | 26 October 2026 | 18:00–20:00 | [Git & GitHub: From Zero to Contributor](days/day-26.md) | Harshavardhan Bajoria | _Awaiting speaker submission_ |
 | 27 October 2026 | 18:00–20:00 | [Advanced Cloud Architecture & DevOps CICD Pipeline Process](days/day-27.md) | Imoh Etuk | _Awaiting speaker submission_ |

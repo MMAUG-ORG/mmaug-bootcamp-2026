@@ -1,6 +1,6 @@
 # Daily Programme Index
 
-This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **29 September 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
+This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **30 September 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
 
 | Day | Date | Published session or status | Speaker(s) |
 | --- | --- | --- | --- |

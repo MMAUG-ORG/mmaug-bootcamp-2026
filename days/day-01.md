@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Imoh Etuk
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs](https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs)
 
 ### Session overview
 
