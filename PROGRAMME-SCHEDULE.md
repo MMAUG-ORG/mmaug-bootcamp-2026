@@ -1,6 +1,6 @@
 # 2026 Live Programme and Speaker Lab Repositories
 
-This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **30 September 2026**. All times are Malta local time. The website calendar remains the source of truth.
+This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **1 October 2026**. All times are Malta local time. The website calendar remains the source of truth.
 
 Speakers should publish practical resources in a public GitHub repository and send the link by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**. Add approved URLs to [`resources/session-labs.json`](resources/session-labs.json), then run `node scripts/sync-live-programme.mjs`.
 
@@ -9,14 +9,14 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 1 October 2026 | 18:00–20:00 | [Introduction to AI Concepts and Tools](days/day-01.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs) |
 | 2 October 2026 | 18:00–19:30 | [Responsible AI for AI Users](days/day-02.md) | Sai Pavan Kumar Gopularam | [Open lab repository](https://github.com/saip33/mmaug-responsible-ai-lab) |
 | 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | _Awaiting speaker submission_ |
-| 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | _Awaiting speaker submission_ |
+| 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | [Open lab repository](https://github.com/balop3e/mmaug-devops-bootcamp-labs) |
 | 6 October 2026 | 18:00–20:00 | [Microsoft Azure fundamentals](days/day-06.md) | Oluwafemi Akinfenwa | [Open lab repository](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals) |
 | 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | [Open lab repository](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app) |
 | 8 October 2026 | 18:00–19:45 | [Responsible AI for AI Builders](days/day-08.md) | Moses Ashang | _Awaiting speaker submission_ |
 | 9 October 2026 | 18:00–20:00 | [Learn the ABCs of Git & GitHub for AI Apps](days/day-09.md) | Imoh Etuk | _Awaiting speaker submission_ |
 | 10 October 2026 | 01:00–02:00 | [AI Security Fundamentals](days/day-10.md) | David Okeyode | _Awaiting speaker submission_ |
-| 12 October 2026 | 18:00–20:00 | [Microsoft Foundry Overview and Single Agent Deployment](days/day-12.md) | Aniema Inyang | _Awaiting speaker submission_ |
-| 13 October 2026 | 18:00–20:00 | [DevOps Tooling](days/day-13.md) | Balogun James | _Awaiting speaker submission_ |
+| 12 October 2026 | 18:00–20:00 | [Microsoft Foundry Overview and Single Agent Deployment](days/day-12.md) | Aniema Inyang | [Open lab repository](https://github.com/annywillow/bootcamp-agent) |
+| 13 October 2026 | 18:00–20:00 | [DevOps Tooling](days/day-13.md) | Balogun James | [Open lab repository](https://github.com/balop3e/mmaug-devops-bootcamp-labs) |
 | 14 October 2026 | 18:00–19:45 | [Code Smarter, Not Alone: Your First Steps with GitHub Copilot](days/day-14.md) | Tiago Costa | _Awaiting speaker submission_ |
 | 15 October 2026 | 18:00–19:45 | [How Large Language Models Actually Work (Without the Hype)](days/day-15.md) | Martyn Coupland | [Open lab repository](https://github.com/martyncoup/mmaug-how-llms-actually-work) |
 | 16 October 2026 | 18:00–19:45 | [Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration](days/day-16.md) | Achraf Ben Alaya | _Awaiting speaker submission_ |

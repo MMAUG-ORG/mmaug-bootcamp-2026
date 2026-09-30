@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Balogun James
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/balop3e/mmaug-devops-bootcamp-labs](https://github.com/balop3e/mmaug-devops-bootcamp-labs)
 
 ### Session overview
 

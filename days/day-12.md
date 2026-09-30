@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Aniema Inyang
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/annywillow/bootcamp-agent](https://github.com/annywillow/bootcamp-agent)
 
 ### Session overview
 
