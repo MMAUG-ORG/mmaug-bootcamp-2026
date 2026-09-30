@@ -19,7 +19,10 @@ const publishedSessions = payload.sessions
   .filter((session) => session.startsAt.slice(0, 7) === "2026-10");
 const sessions = publishedSessions.sort((left, right) => left.startsAt.localeCompare(right.startsAt));
 const existingLabMap = JSON.parse(await readFile(labMapPath, "utf8").catch(() => "{}"));
-const labMap = Object.fromEntries(sessions.map((session) => [session.id, typeof existingLabMap[session.id] === "string" ? existingLabMap[session.id] : ""]));
+const labMap = Object.fromEntries(sessions.map((session) => {
+  const existingValue = existingLabMap[session.id];
+  return [session.id, existingValue === null ? null : typeof existingValue === "string" ? existingValue : ""];
+}));
 
 const dateFormatter = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Malta" });
 const timeFormatter = new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", hourCycle: "h23", timeZone: "Europe/Malta" });
@@ -29,7 +32,11 @@ const speakerNames = (session) => session.speakers?.map((speaker) => speaker.nam
 const sessionTime = (session) => `${timeFormatter.format(new Date(session.startsAt))}–${timeFormatter.format(new Date(session.endsAt || session.startsAt))}`;
 const markdownText = (value) => String(value || "Session details will be provided by the facilitator.").trim().replace(/\r\n/g, "\n").replace(/[<>]/g, "").replace(/\n{3,}/g, "\n\n");
 const tableText = (value) => String(value).replace(/\|/g, "\\|").replace(/\n/g, " ");
-const labCell = (session) => labMap[session.id] ? `[Open lab repository](${labMap[session.id]})` : "_Awaiting speaker submission_";
+const labCell = (session) => labMap[session.id] === null
+  ? "_No lab required_"
+  : labMap[session.id]
+    ? `[Open lab repository](${labMap[session.id]})`
+    : "_Awaiting speaker submission_";
 const isoDate = (day) => `2026-10-${String(day).padStart(2, "0")}`;
 const fileName = (day) => `day-${String(day).padStart(2, "0")}.md`;
 
@@ -55,8 +62,16 @@ for (let day = 1; day <= 31; day += 1) {
 
   if (daySessions.length) {
     const sections = daySessions.map((session, index) => {
-      const repository = labMap[session.id] ? `[${labMap[session.id]}](${labMap[session.id]})` : "_Awaiting speaker submission and MMAUG content review._";
-      return `${daySessions.length > 1 ? `## Session ${index + 1}: ` : "## "}${cleanTitle(session.title)}\n\n- **Time:** ${sessionTime(session)} Malta time\n- **Speaker(s):** ${speakerNames(session)}\n- **Public lab repository:** ${repository}\n\n### Session overview\n\n${markdownText(session.description)}\n\n### Lab resource requirements\n\nThe public repository should provide prerequisites, setup steps, guided exercises, sample files, validation steps, and cleanup guidance where cloud resources can incur cost. Speaker materials are due by **${reviewDeadline}**.\n\n### Learner checklist\n\n- Review the prerequisites before the live session.\n- Open or clone the approved lab repository when its link is published.\n- Complete the guided activity and keep notes in your personal bootcamp repository.\n- Record questions, blockers, and evidence of your completed work.`;
+      const labEntry = labMap[session.id];
+      const repository = labEntry === null
+        ? "_No lab required for this session._"
+        : labEntry
+          ? `[${labEntry}](${labEntry})`
+          : "_Awaiting speaker submission and MMAUG content review._";
+      const labGuidance = labEntry === null
+        ? "### Learner checklist\n\n- Review the session outline before the live session.\n- Attend the presentation and demonstrations.\n- Record useful concepts, questions, and follow-up actions in your personal bootcamp repository."
+        : `### Lab resource requirements\n\nThe public repository should provide prerequisites, setup steps, guided exercises, sample files, validation steps, and cleanup guidance where cloud resources can incur cost. Speaker materials are due by **${reviewDeadline}**.\n\n### Learner checklist\n\n- Review the prerequisites before the live session.\n- Open or clone the approved lab repository when its link is published.\n- Complete the guided activity and keep notes in your personal bootcamp repository.\n- Record questions, blockers, and evidence of your completed work.`;
+      return `${daySessions.length > 1 ? `## Session ${index + 1}: ` : "## "}${cleanTitle(session.title)}\n\n- **Time:** ${sessionTime(session)} Malta time\n- **Speaker(s):** ${speakerNames(session)}\n- **Public lab repository:** ${repository}\n\n### Session overview\n\n${markdownText(session.description)}\n\n${labGuidance}`;
     }).join("\n\n---\n\n");
     body = `# Day ${String(day).padStart(2, "0")} — ${daySessions.map((session) => cleanTitle(session.title)).join(" / ")}\n\n**Date:** ${dateLabel}\n\n${sections}\n`;
     for (const session of daySessions) scheduleRows.push(`| ${dateFormatter.format(new Date(session.startsAt))} | ${sessionTime(session)} | [${tableText(cleanTitle(session.title))}](days/${fileName(day)}) | ${tableText(speakerNames(session))} | ${labCell(session)} |`);
@@ -71,7 +86,7 @@ for (let day = 1; day <= 31; day += 1) {
   await writeFile(path.join(daysDirectory, fileName(day)), `${body.trimEnd()}\n`, "utf8");
 }
 
-const index = `# Daily Programme Index\n\nThis folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **${generatedOn}** with \`node scripts/sync-live-programme.mjs\`. All times are Malta local time.\n\n| Day | Date | Published session or status | Speaker(s) |\n| --- | --- | --- | --- |\n${indexRows.join("\n")}\n\n## Updating the programme\n\n1. Add or update sessions in the MMAUG administration calendar.\n2. Add reviewed public lab URLs to [\`resources/session-labs.json\`](../resources/session-labs.json), keyed by session ID.\n3. Run \`node scripts/sync-live-programme.mjs\` from the repository root.\n4. Review the generated changes before committing them.\n\nThe generator preserves repository URLs for sessions that remain in the feed and adds an empty mapping for each new session.\n`;
+const index = `# Daily Programme Index\n\nThis folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **${generatedOn}** with \`node scripts/sync-live-programme.mjs\`. All times are Malta local time.\n\n| Day | Date | Published session or status | Speaker(s) |\n| --- | --- | --- | --- |\n${indexRows.join("\n")}\n\n## Updating the programme\n\n1. Add or update sessions in the MMAUG administration calendar.\n2. Add reviewed public lab URLs to [\`resources/session-labs.json\`](../resources/session-labs.json), keyed by session ID. Use \`null\` when a session intentionally has no lab.\n3. Run \`node scripts/sync-live-programme.mjs\` from the repository root.\n4. Review the generated changes before committing them.\n\nThe generator preserves repository URLs and explicit no-lab entries for sessions that remain in the feed, and adds an empty mapping for each new session.\n`;
 await writeFile(path.join(daysDirectory, "README.md"), index, "utf8");
 
 const schedule = `# 2026 Live Programme and Speaker Lab Repositories\n\nThis schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **${generatedOn}**. All times are Malta local time. The website calendar remains the source of truth.\n\nSpeakers should publish practical resources in a public GitHub repository and send the link by **${reviewDeadline}**. Add approved URLs to [\`resources/session-labs.json\`](resources/session-labs.json), then run \`node scripts/sync-live-programme.mjs\`.\n\n| Date | Time | Session | Speaker(s) | Speaker lab repository |\n| --- | --- | --- | --- | --- |\n${scheduleRows.join("\n")}\n\n## Minimum lab repository checklist\n\nEach public speaker repository should contain:\n\n- a clear README and learning objectives;\n- prerequisites and setup instructions;\n- step-by-step lab instructions;\n- sample code, templates, prompts, or other learner files;\n- cleanup instructions where cloud resources can incur cost; and\n- a license or reuse statement for the published materials.\n\nDo not add a repository link until it opens without authentication and the content review is complete.\n`;

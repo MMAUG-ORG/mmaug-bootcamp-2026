@@ -35,8 +35,8 @@ This folder mirrors the sessions currently published on the [MMAUG bootcamp page
 ## Updating the programme
 
 1. Add or update sessions in the MMAUG administration calendar.
-2. Add reviewed public lab URLs to [`resources/session-labs.json`](../resources/session-labs.json), keyed by session ID.
+2. Add reviewed public lab URLs to [`resources/session-labs.json`](../resources/session-labs.json), keyed by session ID. Use `null` when a session intentionally has no lab.
 3. Run `node scripts/sync-live-programme.mjs` from the repository root.
 4. Review the generated changes before committing them.
 
-The generator preserves repository URLs for sessions that remain in the feed and adds an empty mapping for each new session.
+The generator preserves repository URLs and explicit no-lab entries for sessions that remain in the feed, and adds an empty mapping for each new session.
