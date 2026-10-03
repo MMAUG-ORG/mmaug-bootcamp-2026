@@ -7,7 +7,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | Date | Time | Session | Speaker(s) | Speaker lab repository |
 | --- | --- | --- | --- | --- |
 | 1 October 2026 | 18:00–20:00 | [Introduction to AI Concepts and Tools](days/day-01.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs) |
-| 2 October 2026 | 18:00–19:30 | [Responsible AI for AI Users](days/day-02.md) | Sai Pavan Kumar Gopularam | [Open lab repository](https://github.com/saip33/mmaug-responsible-ai-lab) |
+| 2 October 2026 | 18:00–19:30 | [Responsible AI for AI Users](days/day-02.md) | Sai Pavan Kumar Gopularam | [Download presentation slides](resources/Day2_Responsible-AI-for-AI-Users-MMAUG.pdf) · [Open lab repository](https://github.com/saip33/mmaug-responsible-ai-lab) |
 | 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | [Download presentation slides](resources/MMAUG_Introduction_to_DevOps_Adedeji_Awolesi.pdf) · _No lab required_ |
 | 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | [Open lab repository](https://github.com/balop3e/mmaug-devops-bootcamp-labs) |
 | 6 October 2026 | 18:00–20:00 | [Microsoft Azure fundamentals](days/day-06.md) | Oluwafemi Akinfenwa | [Open lab repository](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals) |

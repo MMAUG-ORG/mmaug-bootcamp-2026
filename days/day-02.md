@@ -6,6 +6,7 @@
 
 - **Time:** 18:00–19:30 Malta time
 - **Speaker(s):** Sai Pavan Kumar Gopularam
+- **Presentation slides:** [Download Responsible AI for AI Users (PDF)](../resources/Day2_Responsible-AI-for-AI-Users-MMAUG.pdf)
 - **Public lab repository:** [https://github.com/saip33/mmaug-responsible-ai-lab](https://github.com/saip33/mmaug-responsible-ai-lab)
 
 ### Session overview
