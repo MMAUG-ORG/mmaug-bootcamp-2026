@@ -6,6 +6,7 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Adedeji Awolesi
+- **Presentation slides:** [Download Introduction to DevOps (PDF)](../resources/MMAUG_Introduction_to_DevOps_Adedeji_Awolesi.pdf)
 - **Public lab repository:** _No lab required for this session._
 
 ### Session overview

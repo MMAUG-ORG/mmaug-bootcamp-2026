@@ -8,7 +8,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | --- | --- | --- | --- | --- |
 | 1 October 2026 | 18:00–20:00 | [Introduction to AI Concepts and Tools](days/day-01.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug-ai-devops-fundamentals-2026-intro-ai-labs) |
 | 2 October 2026 | 18:00–19:30 | [Responsible AI for AI Users](days/day-02.md) | Sai Pavan Kumar Gopularam | [Open lab repository](https://github.com/saip33/mmaug-responsible-ai-lab) |
-| 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | _No lab required_ |
+| 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | [Download presentation slides](resources/MMAUG_Introduction_to_DevOps_Adedeji_Awolesi.pdf) · _No lab required_ |
 | 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | [Open lab repository](https://github.com/balop3e/mmaug-devops-bootcamp-labs) |
 | 6 October 2026 | 18:00–20:00 | [Microsoft Azure fundamentals](days/day-06.md) | Oluwafemi Akinfenwa | [Open lab repository](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals) |
 | 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | [Open lab repository](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app) |
