@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Imoh Etuk
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [Open repository](https://github.com/imohweb/mmaug-bootcamp2026-learn-abcd-of-git-github)
 
 ### Session overview
 
