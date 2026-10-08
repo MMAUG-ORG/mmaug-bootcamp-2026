@@ -6,6 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Arinze Edeh
+- **Presentation slides:** [Download Azure Fundamentals for Beginners (PDF)](../resources/Arinze_Azure_Fundamentals_for_Beginners_MMAUG.pdf)
 - **Public lab repository:** [https://github.com/arinze-edeh/azure-fundamentals-first-ai-app](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app)
 
 ### Session overview

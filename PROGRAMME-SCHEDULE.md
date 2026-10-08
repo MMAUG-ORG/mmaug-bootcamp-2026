@@ -11,7 +11,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 3 October 2026 | 18:00–19:45 | [Introduction to DevOps](days/day-03.md) | Adedeji Awolesi | [Download presentation slides](resources/MMAUG_Introduction_to_DevOps_Adedeji_Awolesi.pdf) · _No lab required_ |
 | 5 October 2026 | 18:00–20:00 | [Fundamentals of DevOps CI/CD Pipelines](days/day-05.md) | Balogun James | [Open lab repository](https://github.com/balop3e/mmaug-devops-bootcamp-labs) |
 | 6 October 2026 | 18:00–20:00 | [Microsoft Azure fundamentals](days/day-06.md) | Oluwafemi Akinfenwa | [Open lab repository](https://github.com/Oluwaphemmy33/MMAUG-Azure-Fundamentals) |
-| 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | [Open lab repository](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app) |
+| 7 October 2026 | 18:00–20:00 | [Arinze's Azure Fundamentals for Beginners: Mapping Cloud Services to Your First AI App Idea](days/day-07.md) | Arinze Edeh | [Open lab repository](https://github.com/arinze-edeh/azure-fundamentals-first-ai-app)<br>[Download presentation slides (PDF)](resources/Arinze_Azure_Fundamentals_for_Beginners_MMAUG.pdf) |
 | 8 October 2026 | 18:00–19:45 | [Responsible AI for AI Builders](days/day-08.md) | Moses Ashang | _Awaiting speaker submission_ |
 | 9 October 2026 | 18:00–20:00 | [Learn the ABCs of Git & GitHub for AI Apps](days/day-09.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug-bootcamp2026-learn-abcd-of-git-github) |
 | 10 October 2026 | 01:00–02:00 | [AI Security Fundamentals](days/day-10.md) | David Okeyode | _Awaiting speaker submission_ |
