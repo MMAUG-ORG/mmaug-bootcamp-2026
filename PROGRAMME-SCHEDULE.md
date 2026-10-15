@@ -2,6 +2,8 @@
 
 This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **1 October 2026**. All times are Malta local time. The website calendar remains the source of truth.
 
+The **17 and 27 October** entries were refreshed from the live calendar on **15 October 2026**, with the shared speaker lab repository linked below.
+
 Speakers should publish practical resources in a public GitHub repository and send the link by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**. Add approved URLs to [`resources/session-labs.json`](resources/session-labs.json), then run `node scripts/sync-live-programme.mjs`.
 
 | Date | Time | Session | Speaker(s) | Speaker lab repository |
@@ -20,7 +22,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 14 October 2026 | 18:00–19:45 | [Code Smarter, Not Alone: Your First Steps with GitHub Copilot](days/day-14.md) | Tiago Costa | _Awaiting speaker submission_ |
 | 15 October 2026 | 18:00–19:45 | [How Large Language Models Actually Work (Without the Hype)](days/day-15.md) | Martyn Coupland | [Open lab repository](https://github.com/martyncoup/mmaug-how-llms-actually-work) |
 | 16 October 2026 | 18:00–19:45 | [Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration](days/day-16.md) | Achraf Ben Alaya | _Awaiting speaker submission_ |
-| 17 October 2026 | 18:00–19:45 | [AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners](days/day-17.md) | Prakash Nagaraj | _Awaiting speaker submission_ |
+| 17 October 2026 | 18:00–20:00 | [Python, Docker & IaC Fundamentals for Beginners](days/day-17.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines) |
 | 19 October 2026 | 18:00–19:45 | [Automating Azure DevOps Workflows Using Foundry Models](days/day-19.md) | Promise Uche Nwachukwu | _Awaiting speaker submission_ |
 | 20 October 2026 | 18:00–19:45 | [Exploring Specialized Agents in Microsoft 365 Copilot](days/day-20.md) | Nanddeep Nachan, Smita Nachan | [Open lab repository](https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot) |
 | 21 October 2026 | 18:00–20:00 | [Prompt Craft Foundations](days/day-21.md) | Olawale Bello | _Awaiting speaker submission_ |
@@ -28,7 +30,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 23 October 2026 | 18:00–20:00 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](days/day-23.md) | Rajaniesh Kaushikk | [Open lab repository](https://github.com/rkaushik2007/agent-chaos-to-agent-control) |
 | 24 October 2026 | 18:00–19:45 | [From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Required)](days/day-24.md) | Roberto Corella | _Awaiting speaker submission_ |
 | 26 October 2026 | 18:00–20:00 | [Git & GitHub: From Zero to Contributor](days/day-26.md) | Harshavardhan Bajoria | _Awaiting speaker submission_ |
-| 27 October 2026 | 18:00–20:00 | [Advanced Cloud Architecture & DevOps CICD Pipeline Process](days/day-27.md) | Imoh Etuk | _Awaiting speaker submission_ |
+| 27 October 2026 | 18:00–20:00 | [Advanced Cloud Architecture & DevOps CICD Pipeline Process](days/day-27.md) | Imoh Etuk | [Open lab repository](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines) |
 | 28 October 2026 | 18:00–19:00 | [Capstone Project: Contoso Recruitment Assistant](days/day-28.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 | 28 October 2026 | 19:00–20:00 | [Capstone Project: MMAUG Insurance Claims Agent](days/day-28.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 | 29 October 2026 | 18:00–20:00 | [Capstone Project: MMAUG High School Secure Login Portal](days/day-29.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |

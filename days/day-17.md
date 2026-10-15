@@ -1,24 +1,20 @@
-# Day 17 — AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners
+# Day 17 — Python, Docker & IaC Fundamentals for Beginners
 
 **Date:** 17 October 2026
 
-## AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners
+## Python, Docker & IaC Fundamentals for Beginners
 
-- **Time:** 18:00–19:45 Malta time
-- **Speaker(s):** Prakash Nagaraj
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Time:** 18:00–20:00 Malta time
+- **Speaker(s):** Imoh Etuk
+- **Public lab repository:** [Open lab repository](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines)
 
 ### Session overview
 
-AI agents are showing up everywhere, from Microsoft Copilot to custom bots built for specific business tasks. But once you move past a single working agent, a new question appears: what happens when many agents need to work together, hand off tasks to each other, and make decisions without a person watching every step?
+This beginner-friendly session introduces participants to three essential technologies used in modern software development and DevOps. You will learn the basics of Python for scripting and automation, understand how Docker packages applications into portable containers, and explore Infrastructure as Code (IaC) for creating and managing infrastructure through code.
 
-This beginner-friendly session introduces the idea of governed multi-agent architecture: a way of organizing multiple AI agents so their combined work stays understandable, trustworthy, and safe to use in the real world. No prior experience with AI agents is required; we will build up the concepts from the ground up and explain any technical terms as we go.
+By the end of the session, participants will understand how Python, Docker, and IaC work together to support automation, consistency, scalability, and modern cloud deployment practices.
 
-We will cover three simple ideas that make multi-agent systems easier to manage: bounded autonomy (each agent only does what it is explicitly allowed to do), composable reuse (agent skills can be combined into new workflows instead of rebuilt from scratch), and human-in-the-loop design (a person stays involved in reviewing and approving key decisions). We will also walk through the lifecycle an agent moves through, from design and testing to production use and eventual retirement.
-
-Drawing on real examples from enterprise AI agent deployments, including a Microsoft Copilot Studio based program running production agents, the session shows how a structured approach to multi-agent systems can reduce manual work, speed up decisions, and make it easier to catch problems early.
-
-Attendees will leave with a simple mental model for thinking about AI agents working together, a checklist of questions to ask before combining agents into automated workflows, and a clearer sense of how responsible AI and human oversight fit into agentic systems. This session is designed for learners who are curious about AI agents and DevOps and want a practical, jargon-explained introduction rather than a deep technical deep-dive.
+Use the repository's [start-here guide](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines/blob/main/docs/00-start-here.md) for the October 17 foundations sequence. The [October 27 session](day-27.md) continues with the same application and repository.
 
 ### Lab resource requirements
 

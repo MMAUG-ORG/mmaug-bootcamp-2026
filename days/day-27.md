@@ -6,11 +6,13 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Imoh Etuk
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [Open lab repository](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines)
 
 ### Session overview
 
 This advanced session builds on the AI Architecture & DevOps CI/CD Pipeline Fundamentals session and explores how enterprise-grade AI architecture is defined & how pipelines securely move applications from code commit to production. Participants will examine automated testing, artefact management, containerisation, security scanning, environment promotion, production approvals, Kubernetes deployment, workload identity, observability, rollback, performance optimisation, and troubleshooting. Completion of, or attendance at, the DevOps CI/CD Pipeline Fundamentals session is a prerequisite.
+
+Use the same repository as the [October 17 foundations session](day-17.md). Follow its [start-here guide](https://github.com/imohweb/mmaug_bootcamp2026_python_docker_iac_tf_cloud_architecture_cicd_pipelines/blob/main/docs/00-start-here.md) for the October 27 sequence, delivery and CodeQL exercises, and optional Foundry/Azure OpenAI application demo.
 
 ### Lab resource requirements
 

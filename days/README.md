@@ -2,6 +2,8 @@
 
 This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **1 October 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
 
+The **17 and 27 October** entries and their lab links were refreshed from the live calendar on **15 October 2026**.
+
 | Day | Date | Published session or status | Speaker(s) |
 | --- | --- | --- | --- |
 | 1 | 1 October 2026 | [Introduction to AI Concepts and Tools](day-01.md) | Imoh Etuk |
@@ -18,7 +20,7 @@ This folder mirrors the sessions currently published on the [MMAUG bootcamp page
 | 14 | 14 October 2026 | [Code Smarter, Not Alone: Your First Steps with GitHub Copilot](day-14.md) | Tiago Costa |
 | 15 | 15 October 2026 | [How Large Language Models Actually Work (Without the Hype)](day-15.md) | Martyn Coupland |
 | 16 | 16 October 2026 | [Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration](day-16.md) | Achraf Ben Alaya |
-| 17 | 17 October 2026 | [AI Agents 101: Understanding Governed Multi-Agent Architecture for Beginners](day-17.md) | Prakash Nagaraj |
+| 17 | 17 October 2026 | [Python, Docker & IaC Fundamentals for Beginners](day-17.md) | Imoh Etuk |
 | 19 | 19 October 2026 | [Automating Azure DevOps Workflows Using Foundry Models](day-19.md) | Promise Uche Nwachukwu |
 | 20 | 20 October 2026 | [Exploring Specialized Agents in Microsoft 365 Copilot](day-20.md) | Nanddeep Nachan, Smita Nachan |
 | 21 | 21 October 2026 | [Prompt Craft Foundations](day-21.md) | Olawale Bello |
