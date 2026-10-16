@@ -6,7 +6,8 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Achraf Ben Alaya
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/achrafbenalaya/Copilot-Parallel-DevSecOps-Malta](https://github.com/achrafbenalaya/Copilot-Parallel-DevSecOps-Malta)
+- **Presentation slides:** [Open the speaker slide deck](https://achrafbenalaya.github.io/Copilot-Parallel-DevSecOps-Malta/Copilot-Workshop_Deck_v3#/6/0/0)
 
 ### Session overview
 

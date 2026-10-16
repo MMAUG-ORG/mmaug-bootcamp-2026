@@ -2,7 +2,7 @@
 
 This folder mirrors the sessions currently published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp). It was generated on **1 October 2026** with `node scripts/sync-live-programme.mjs`. All times are Malta local time.
 
-The **17 and 27 October** entries and their lab links were refreshed from the live calendar on **15 October 2026**.
+The **16 October** session resources were added on **16 October 2026**. The **17 and 27 October** entries and their lab links were refreshed from the live calendar on **15 October 2026**.
 
 | Day | Date | Published session or status | Speaker(s) |
 | --- | --- | --- | --- |
