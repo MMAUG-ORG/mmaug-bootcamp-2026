@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Promise Uche Nwachukwu
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/promiseuche/azure-devops-mcp-server](https://github.com/promiseuche/azure-devops-mcp-server)
 
 ### Session overview
 
