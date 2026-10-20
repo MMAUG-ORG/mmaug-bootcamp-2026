@@ -7,6 +7,7 @@
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Promise Uche Nwachukwu
 - **Public lab repository:** [https://github.com/promiseuche/azure-devops-mcp-server](https://github.com/promiseuche/azure-devops-mcp-server)
+- **Presentation slides:** [Download Automating Azure DevOps Workflows Using Foundry Models (PDF)](../resources/Automating_Azure_DevOps_Workflows_Using_Foundry_Models.pdf)
 
 ### Session overview
 

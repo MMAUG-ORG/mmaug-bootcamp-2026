@@ -6,7 +6,8 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Olawale Bello
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/walezbee/mmaug-promptcraft-foundations-labs](https://github.com/walezbee/mmaug-promptcraft-foundations-labs)
+- **Presentation slides:** [Download Prompt Craft Foundations Beginner (PDF)](../resources/Prompt_Craft_Foundations_Beginner.pdf)
 
 ### Session overview
 
