@@ -6,7 +6,7 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Luis Beltran
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** [https://github.com/icebeam7/reflection-planning-foundry](https://github.com/icebeam7/reflection-planning-foundry)
 
 ### Session overview
 

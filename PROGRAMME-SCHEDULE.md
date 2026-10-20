@@ -2,7 +2,7 @@
 
 This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **1 October 2026**. All times are Malta local time. The website calendar remains the source of truth.
 
-The **19 and 21 October** entries were updated on **20 October 2026** with the approved speaker resources. The **16 October** entry was updated on **16 October 2026** with the approved speaker lab repository and slide deck. The **17 and 27 October** entries were refreshed from the live calendar on **15 October 2026**, with the shared speaker lab repository linked below.
+The **19, 21 and 22 October** entries were updated on **20 October 2026** with the approved speaker resources. The **16 October** entry was updated on **16 October 2026** with the approved speaker lab repository and slide deck. The **17 and 27 October** entries were refreshed from the live calendar on **15 October 2026**, with the shared speaker lab repository linked below.
 
 Speakers should publish practical resources in a public GitHub repository and send the link by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**. Add approved URLs to [`resources/session-labs.json`](resources/session-labs.json), then run `node scripts/sync-live-programme.mjs`.
 
@@ -26,7 +26,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 19 October 2026 | 18:00–19:45 | [Automating Azure DevOps Workflows Using Foundry Models](days/day-19.md) | Promise Uche Nwachukwu | [Open lab repository](https://github.com/promiseuche/azure-devops-mcp-server)<br>[Download presentation slides (PDF)](resources/Automating_Azure_DevOps_Workflows_Using_Foundry_Models.pdf) |
 | 20 October 2026 | 18:00–19:45 | [Exploring Specialized Agents in Microsoft 365 Copilot](days/day-20.md) | Nanddeep Nachan, Smita Nachan | [Open lab repository](https://github.com/nanddeepn/Specialized-Agents-in-M365-Copilot) |
 | 21 October 2026 | 18:00–20:00 | [Prompt Craft Foundations](days/day-21.md) | Olawale Bello | [Open lab repository](https://github.com/walezbee/mmaug-promptcraft-foundations-labs)<br>[Download presentation slides (PDF)](resources/Prompt_Craft_Foundations_Beginner.pdf) |
-| 22 October 2026 | 18:00–19:45 | [Building Smarter Agents with Reflection and Planning](days/day-22.md) | Luis Beltran | _Awaiting speaker submission_ |
+| 22 October 2026 | 18:00–19:45 | [Building Smarter Agents with Reflection and Planning](days/day-22.md) | Luis Beltran | [Open lab repository](https://github.com/icebeam7/reflection-planning-foundry) |
 | 23 October 2026 | 18:00–20:00 | [Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with Microsoft Foundry](days/day-23.md) | Rajaniesh Kaushikk | [Open lab repository](https://github.com/rkaushik2007/agent-chaos-to-agent-control) |
 | 24 October 2026 | 18:00–19:45 | [From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Required)](days/day-24.md) | Roberto Corella | _Awaiting speaker submission_ |
 | 26 October 2026 | 18:00–20:00 | [Git & GitHub: From Zero to Contributor](days/day-26.md) | Harshavardhan Bajoria | _Awaiting speaker submission_ |
