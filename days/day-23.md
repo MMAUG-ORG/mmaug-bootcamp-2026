@@ -7,6 +7,7 @@
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Rajaniesh Kaushikk
 - **Public lab repository:** [https://github.com/rkaushik2007/agent-chaos-to-agent-control](https://github.com/rkaushik2007/agent-chaos-to-agent-control)
+- **Presentation slides:** [Download Agent Chaos to Agent Control (PDF)](../resources/Agent_Chaos_to_Agent_Control_Microsoft_Foundry.pdf)
 
 ### Session overview
 
