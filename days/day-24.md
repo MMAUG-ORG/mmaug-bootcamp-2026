@@ -6,7 +6,8 @@
 
 - **Time:** 18:00–19:45 Malta time
 - **Speaker(s):** Roberto Corella
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
+- **Public lab repository:** _No lab required for this no-code session._
+- **Presentation slides:** [Download From Vague Idea to Structured Spec (PDF)](../resources/From_Vague_Idea_to_Structured_Spec_Agentic_AI_Workflow.pdf)
 
 ### Session overview
 
