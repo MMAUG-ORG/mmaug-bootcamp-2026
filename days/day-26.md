@@ -6,6 +6,7 @@
 
 - **Time:** 18:00–20:00 Malta time
 - **Speaker(s):** Harshavardhan Bajoria
+- **Presentation slides:** [Open the speaker slide deck](https://docs.google.com/presentation/d/1C6lDUmA0gRs3Aj5eBQ1dQAswCs4RphbY/edit?usp=sharing&ouid=100025622565396249863&rtpof=true&sd=true)
 - **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
 
 ### Session overview
