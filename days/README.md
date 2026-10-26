@@ -31,8 +31,8 @@ The **16 October** session resources were added on **16 October 2026**. The **17
 | 27 | 27 October 2026 | [Advanced Cloud Architecture & DevOps CICD Pipeline Process](day-27.md) | Imoh Etuk |
 | 28 | 28 October 2026 | [Capstone Project: Contoso Recruitment Assistant / Capstone Project: MMAUG Insurance Claims Agent](day-28.md) | MMAUG Capstone Facilitators / MMAUG Capstone Facilitators |
 | 29 | 29 October 2026 | [Capstone Project: MMAUG High School Secure Login Portal](day-29.md) | MMAUG Capstone Facilitators |
-| 30 | 30 October 2026 | [Capstone Project: Fabrikam Mobility Taxi Recommender](day-30.md) | MMAUG Capstone Facilitators |
-| 31 | 31 October 2026 | [Capstone Project: MMAUG Bank Financial Fraud Detection Agent](day-31.md) | MMAUG Capstone Facilitators |
+| 30 | 30 October 2026 | [No live session — Fabrikam Mobility moved to 31 October](day-30.md) | — |
+| 31 | 31 October 2026 | [Capstone Project: Fabrikam Mobility Taxi Recommender / Capstone Project: MMAUG Bank Financial Fraud Detection Agent](day-31.md) | MMAUG Capstone Facilitators / MMAUG Capstone Facilitators |
 
 ## Updating the programme
 

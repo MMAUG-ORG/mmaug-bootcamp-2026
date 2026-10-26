@@ -2,7 +2,7 @@
 
 This schedule reflects the sessions published on the [MMAUG bootcamp page](https://mmaug.com/bootcamp) as of **1 October 2026**. All times are Malta local time. The website calendar remains the source of truth.
 
-The **26 October** entry was updated on **26 October 2026** with the approved speaker slide deck. The **24 October** entry was updated on **24 October 2026** with the approved speaker slide deck. The **23 October** entry was updated on **23 October 2026** with the approved speaker slide deck. The **19, 21 and 22 October** entries were updated on **20 October 2026** with the approved speaker resources. The **16 October** entry was updated on **16 October 2026** with the approved speaker lab repository and slide deck. The **17 and 27 October** entries were refreshed from the live calendar on **15 October 2026**, with the shared speaker lab repository linked below.
+The Fabrikam Mobility session previously listed for **30 October** has moved to **31 October 2026**. There is no live session on Friday, 30 October; both remaining capstone sessions are scheduled for Saturday, 31 October. The **26 October** entry was updated on **26 October 2026** with the approved speaker slide deck. The **24 October** entry was updated on **24 October 2026** with the approved speaker slide deck. The **23 October** entry was updated on **23 October 2026** with the approved speaker slide deck. The **19, 21 and 22 October** entries were updated on **20 October 2026** with the approved speaker resources. The **16 October** entry was updated on **16 October 2026** with the approved speaker lab repository and slide deck. The **17 and 27 October** entries were refreshed from the live calendar on **15 October 2026**, with the shared speaker lab repository linked below.
 
 Speakers should publish practical resources in a public GitHub repository and send the link by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**. Add approved URLs to [`resources/session-labs.json`](resources/session-labs.json), then run `node scripts/sync-live-programme.mjs`.
 
@@ -34,7 +34,7 @@ Speakers should publish practical resources in a public GitHub repository and se
 | 28 October 2026 | 18:00–19:00 | [Capstone Project: Contoso Recruitment Assistant](days/day-28.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 | 28 October 2026 | 19:00–20:00 | [Capstone Project: MMAUG Insurance Claims Agent](days/day-28.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 | 29 October 2026 | 18:00–20:00 | [Capstone Project: MMAUG High School Secure Login Portal](days/day-29.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
-| 30 October 2026 | 18:00–20:00 | [Capstone Project: Fabrikam Mobility Taxi Recommender](days/day-30.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
+| 31 October 2026 | 18:00–20:00 | [Capstone Project: Fabrikam Mobility Taxi Recommender](days/day-31.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 | 31 October 2026 | 18:00–20:00 | [Capstone Project: MMAUG Bank Financial Fraud Detection Agent](days/day-31.md) | MMAUG Capstone Facilitators | _Awaiting speaker submission_ |
 
 ## Minimum lab repository checklist

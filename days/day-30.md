@@ -1,24 +1,9 @@
-# Day 30 — Capstone Project: Fabrikam Mobility Taxi Recommender
+# Day 30 — No live session
 
 **Date:** 30 October 2026
 
-## Capstone Project: Fabrikam Mobility Taxi Recommender
+The **Capstone Project: Fabrikam Mobility Taxi Recommender** session has moved to
+[Saturday, 31 October 2026](day-31.md). There is no scheduled live bootcamp session on Friday, 30 October.
 
-- **Time:** 18:00–20:00 Malta time
-- **Speaker(s):** MMAUG Capstone Facilitators
-- **Public lab repository:** _Awaiting speaker submission and MMAUG content review._
-
-### Session overview
-
-Create an extensible mobility recommender using permitted sandbox or public integrations and customer-provided mock services where commercial APIs are unavailable. Normalise provider results, explain recommendations and degrade safely when a provider fails.
-
-### Lab resource requirements
-
-The public repository should provide prerequisites, setup steps, guided exercises, sample files, validation steps, and cleanup guidance where cloud resources can incur cost. Speaker materials are due by **Wednesday, 30 September 2026 at 14:00 CEST (Malta time)**.
-
-### Learner checklist
-
-- Review the prerequisites before the live session.
-- Open or clone the approved lab repository when its link is published.
-- Complete the guided activity and keep notes in your personal bootcamp repository.
-- Record questions, blockers, and evidence of your completed work.
+Use Friday to review the capstone requirements, organise your project evidence and prepare questions for Saturday's
+two-session programme.
